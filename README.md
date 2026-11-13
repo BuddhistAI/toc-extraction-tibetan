@@ -23,8 +23,8 @@ scripts/              summarize.py, export_buddhist_benchmarks.py, to_benchmark_
 
 | Variant | Version | What |
 | --- | --- | --- |
-| [gepa-v1](./variants/gepa-v1/) | 1.0.0 | GEPA-optimised prompt. **Promoted.** |
-| [sabcad-outliner-toc](./variants/sabcad-outliner-toc/) | 1.0.0 | sabcad-outliner with the TOC task on top, so it can ship as a TOC skill |
+| [sabcad-outliner-toc](./variants/sabcad-outliner-toc/) | 1.0.0 | sabcad-outliner with the TOC task on top, so it can ship as a TOC skill. **Promoted.** |
+| [gepa-v1](./variants/gepa-v1/) | 1.0.0 | GEPA-optimised prompt. Near-tie challenger |
 | [sabcad-outliner](./variants/sabcad-outliner/) | 1.0.0 | A colleague's .docx outliner skill, benchmarked through an adapter, with and without its script |
 | [seed](./variants/seed/) | 0.1.0 | One-paragraph baseline prompt |
 

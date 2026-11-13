@@ -4,17 +4,19 @@ _2026-11-13 · benchmark 1.0.0 · models Claude Haiku 5.5 (`claude-haiku-5-5`) a
 
 ## Result
 
-**Promoted: gepa-v1 1.0.0.** It has the highest lab score on the cheap model, the highest score on the book no skill was tuned on (on both models), and is within noise of the best on Sonnet. Its closest shippable challenger, sabcad-outliner-toc 1.0.0 (the colleague's skill turned into a TOC skill), is ahead on the headline structure_f1 by 0.007, which is less than the run-to-run noise. The gap is small and could flip once the held-out book's references are fixed (see Known problems).
+**Promoted: sabcad-outliner-toc 1.0.0**, the colleague's sa-bcad method packaged as a TOC skill. It has the best headline score (structure_f1, the buddhist-benchmarks metric that promotion is based on) of the three variants that can ship as a TOC skill, averaged over both models. It ties gepa-v1 on Haiku 5.5 and beats it on Sonnet 5.5.
 
-| Variant | Haiku 5.5, lab score | Sonnet 5.5, lab score | Held-out book, mean of both models | structure_f1, mean of both models |
-| --- | --- | --- | --- | --- |
-| **gepa-v1 1.0.0** | **91.1** | 96.7 | **87.8** | 0.886 |
-| sabcad-outliner-toc 1.0.0 | 87.9 | **97.0** | 83.8 | **0.893** |
-| sabcad-outliner 1.0.0 (adapter) | 90.7 | 96.2 | 79.7 | 0.903 |
-| sabcad-outliner 1.0.0 + script | 84.8 | **97.0** | 78.9 | 0.899 |
-| seed 0.1.0 | 75.8 | 96.2 | 79.4 | 0.846 |
+**It is a near-tie with gepa-v1.** The 0.007 gap is within run-to-run noise, and the two metrics disagree. The per-passage lab score, which counts short passages as much as long ones, prefers gepa-v1. So does the book no skill was tuned on. The held-out book's references are known to be incomplete (see "Known problems"), so after they are fixed (benchmark 1.0.1), re-run both before treating this as settled.
 
-sabcad-outliner with the adapter scored highest on structure_f1, but in that form it is a .docx skill. Benchmarking only works because the harness puts an adapter in front of it, so it can't ship as a TOC skill. sabcad-outliner-toc is that same skill with the adapter built in, and it is the form that could ship. It scored lower on Haiku than the adapter version did.
+| Variant | Ships as a TOC skill | structure_f1, Haiku 5.5 | structure_f1, Sonnet 5.5 | structure_f1, mean | Lab score, mean | Held-out book, mean |
+| --- | --- | --- | --- | --- | --- | --- |
+| **sabcad-outliner-toc 1.0.0** | yes | 0.823 ± 0.022 | 0.962 ± 0.007 | **0.893** | 92.4 | 83.8 |
+| gepa-v1 1.0.0 | yes | 0.824 ± 0.012 | 0.949 ± 0.020 | 0.886 | **93.9** | **87.8** |
+| seed 0.1.0 | yes | 0.741 ± 0.022 | 0.951 ± 0.005 | 0.846 | 86.0 | 79.4 |
+| sabcad-outliner 1.0.0 (adapter) | no, .docx skill | **0.859** ± 0.017 | 0.946 ± 0.014 | **0.903** | 93.4 | 79.7 |
+| sabcad-outliner 1.0.0 + script | no, .docx skill | 0.831 ± 0.012 | **0.968** ± 0.001 | 0.899 | 90.9 | 78.9 |
+
+The two sabcad-outliner rows are the colleague's original .docx skill, run through the benchmark adapter in `benchmark/bench_skills.py`. They can't ship as they are. sabcad-outliner-toc is the same skill with the adapter written into it.
 
 ## What was measured
 
@@ -86,6 +88,7 @@ sabcad-outliner with the adapter scored highest on structure_f1, but in that for
 
 ## Next steps
 
+1. sabcad-outliner-toc scores lower on Haiku than the adapter version of the same skill (0.823 vs 0.859). The wording of its new task section, or the rendering section copied from gepa-v1, seems to cost Haiku something. A 1.0.1 that keeps the adapter's wording exactly is worth a run.
 1. Fix the *Jewel Garland* references (benchmark 1.0.1) and re-run the top two variants.
 2. Add passages from at least two more books with embedded sa-bcad (1.1.0), each with a note on what it tests.
 3. Re-run GEPA with Haiku 5.5 as the task model, using sabcad-outliner's rules as the seed. Combining the two is the most likely way to beat both.
