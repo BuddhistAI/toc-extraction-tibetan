@@ -1,0 +1,2880 @@
+{
+ "skill:variants/sabcad-outliner-toc|unused": [
+  {
+   "id": "IBA-LWS-08-005",
+   "score": 1.0,
+   "tp_pos": 8,
+   "tp_depth": 8,
+   "n_gold": 8,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(གཟུགས་ཕུང་གི་རྣམ་གཞག་)ལ་གཉིས།",
+     "title": "གཟུགས་ཕུང་གི་རྣམ་གཞག་"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(དངོས་)ལ་གཉིས།",
+     "title": "དངོས"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "མདོར་བསྟན་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གསུམ།",
+     "title": "རྒྱས་པར་བཤད་པ"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(དབང་པོ་ལྔ་མཚན་ཉིད་ཀྱི་སྒོ་ནས་བསྟན་པ་)ནི།",
+     "title": "དབང་པོ་ལྔ་མཚན་ཉིད་ཀྱི་སྒོ་ནས"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་དོན་ལྔ་མཚན་གཞིའི་སྒོ་ནས་བསྟན་པ་ནི།",
+     "title": "དོན་ལྔ་མཚན་གཞིའི་སྒོ་ནས"
+    },
+    {
+     "depth": 4,
+     "anchor": "གསུམ་པ་རྣམ་པར་རིག་བྱེད་མ་ཡིན་པའི་གཟུགས་བཤད་པ་ནི།",
+     "title": "རིག་བྱེད་མ་ཡིན་པའི་གཟུགས"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དབ༷ང་དོ༷ན་དེ༷་དག་སྐྱེ་མཆེད་དང་ཁམས་སུ་བྱ་བ་ནི།",
+     "title": "སྐྱེ་མཆེད་དང་ཁམས་སུ་བྱ་བ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-011",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྟོག་བཅས་དཔྱོད་བཅས་ལ་སོགས་པའི་རབ་དབྱེ་ནི།",
+     "title": "Second division: with-thought, with-examination, etc."
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་དམིགས་བཅས་ལ་སོགས་པ་ལྔ་ནི།",
+     "title": "Third division: with-object, etc. (five)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-016",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(དབང་པོའི་རང་བཞིན་)ལ་གཉིས། དབང་པོ",
+     "title": "དབང་པོའི་རང་བཞིན་ (nature of the faculties)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(དབང་པོའི་བྱེད་ལས་)ནི། བཅུ་གཉིས་ནང་གིར་བཤད",
+     "title": "དབང་པོའི་བྱེད་ལས (functions of the faculties)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་གྲངས་ངེས་ནི། འོ་ན། མ་རིག་པ་དང༌། ངག་དང༌། ལག་",
+     "title": "གྲངས་ངེས (the fixed number of faculties)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-020",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་དགེ་སྦྱོང་ཚུལ་གྱི་འབྲས་བུ་དབང་པོ་དུས་འཐོབ་པ་ནི།",
+     "title": "དགེ་སྦྱོང་ཚུལ་གྱི་འབྲས་བུ་དབང་པོ་དུས་འཐོབ་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-021",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་དབང་པོའི་ལྡན་ཚུལ་ལ་གཉིས།",
+     "title": "དབང་པོའི་ལྡན་ཚུལ་ (two divisions)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ངེས་ལྡན་)ནི།",
+     "title": "ངེས་ལྡན་ (definite endowment)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་སྲིད་ལྡན་ནི།",
+     "title": "སྲིད་ལྡན་ (possible endowment)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-022",
+   "score": 0.846153846153846,
+   "tp_pos": 11,
+   "tp_depth": 11,
+   "n_gold": 15,
+   "n_pred": 11,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་འདུས་བྱས་ཀྱི་ཆོས་ཀྱི་སྐྱེ་ཚུལ་ལ་གཉིས། དངོས་དང༌",
+     "title": "Second: the arising of conditioned phenomena"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(དངོས་)ལ་གཉིས། གཟུགས་ཅན་གྱི་ཆོས་ཀྱི་སྐྱེ་ཚུལ་དང༌།",
+     "title": "Actual topic: form-possessing and non-form arising"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(གཟུགས་ཅན་གྱི་ཆོས་ཀྱི་སྐྱེ་ཚུལ་)ནི། འདུས་བྱས་རྣམས་མཚན་ཉིད་ཐ་དད་པ་བཞིན་དུ་ཐ་དད་པ་ཁོ་ནར་སྐྱེའམ།",
+     "title": "Arising of form-possessing phenomena"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་གཟུགས་ཅན་མ་ཡིན་པའི་སྐྱེ་ཚུལ་ལ་གཉིས། བསྟན། བཤད་དོ།",
+     "title": "Arising of non-form phenomena"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། གཟུགས་ཅན་གྱི་སྐྱེ་ཚུལ་དེ་ལྟར་ཡིན་ན།",
+     "title": "Brief statement"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གཉིས། མཚུངས་ལྡན་གྱི་སྐྱེ་ཚུལ།",
+     "title": "Extensive explanation"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་(མཚུངས་ལྡན་གྱི་སྐྱེ་ཚུལ་)ལ་བཞི། སྡེ་ཚན་དུ་ངེས་པའི་རབ་དབྱེ།",
+     "title": "Concomitant arising, four points"
+    },
+    {
+     "depth": 6,
+     "anchor": "དང་པོ་(སྡེ་ཚན་དུ་ངེས་པའི་རབ་དབྱེ་)ལ་གཉིས། བསྟན། བཤད་དོ།",
+     "title": "Definite categories of mental factors"
+    },
+    {
+     "depth": 7,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། སེམས་དང་སེམས་བྱུང་ངེས་ལྷན་ཅིག",
+     "title": "Brief statement of mental factors"
+    },
+    {
+     "depth": 7,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་ལྔ་ལས། དང་པོ་ནི། སེམས་བྱུང་རྣམ་ལྔ་སྟེ།",
+     "title": "Extensive explanation of the five kinds"
+    },
+    {
+     "depth": 8,
+     "anchor": "དང་པོ་ནི། སེམས་བྱུང་རྣམ་ལྔ་སྟེ། ས་མང་ལ་སོགས་ཐ་དད་ཕྱིར།",
+     "title": "Five kinds of mental factors: first, the omnipresent ones"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-023",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་མ་ངེས་པ་དང་བཅས་པའི་མཚུངས་ལྡན་ནི།",
+     "title": "2nd: mental factors accompanied by the indeterminate (ma nges pa)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་འདྲ་བ་ལྟ་བུའི་ཁྱད་པར་ནི།",
+     "title": "3rd: distinction of seemingly similar terms (ngo tsha / khrel)"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་ཐ་དད་ལྟ་བུའི་གཅིག་པ་ནི།",
+     "title": "4th: apparently different but identical terms (sems / yid / rnam shes)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-026",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་མ་ཐོབ་པའི་ཁྱད་ཆོས་ནི།",
+     "title": "Second: distinguishing features of unobtained (ma thob pa)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-036",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་སེམས་བཅུ་གཉིས་པོ་གང་ལས་གང་གསར་དུ་རྙེད་དཔ",
+     "title": "གསུམ་པ་ སེམས་བཅུ་གཉིས་པོ་གང་ལས་གང་གསར་དུ་རྙེད་དཔྱད་པ།"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-038",
+   "score": 0.6499999999999999,
+   "tp_pos": 10,
+   "tp_depth": 5,
+   "n_gold": 10,
+   "n_pred": 10,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཆོས་ཀྱི་ཁྱད་པར་ལ་བཞི།",
+     "title": "Second: qualities of the dharma (four parts)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རྣམ་ཤེས་ཀྱི་གནས་པ་བདུན་)ནི།",
+     "title": "First: seven abodes of consciousness"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་(སེམས་ཅན་གྱི་གནས་དགུ་)ནི།",
+     "title": "Second: nine abodes of beings"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་(རྣམ་ཤེས་གནས་པ་བཞི་)ནི།",
+     "title": "Third: four abodes of consciousness"
+    },
+    {
+     "depth": 2,
+     "anchor": "བཞི་པ་(བདུན་དང་བཞིའི་བསྡུ་བ་དཔྱད་པ་)ནི།",
+     "title": "Fourth: examining the summary of seven and four"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་རང་བཞིན་རྒྱས་པར་བཤད་པ་ལ་གསུམ།",
+     "title": "Third: detailed explanation of the nature (three parts)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དང་པོར་འཇུག་ཚུལ་)ལ་གཉིས།",
+     "title": "First: how it enters (two parts)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(གང་དུ་འཇུག་པའི་སྐྱེ་གནས་)ནི།",
+     "title": "First: the places of birth it enters"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་གང་གིས་འཇུག་པའི་བར་སྲིད་ལ་ལྔ།",
+     "title": "Second: the intermediate existence by which it enters (five parts)"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་(ངོ་བོ་)ནི།",
+     "title": "First: the essence"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-044",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་ཡན་ལག་གསུམ་དཔེ་དང་སྦྱར་བ་ནི།",
+     "title": "Third branch: example combined with three-part summary"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-045",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་བསྡུ་བ་ནི།",
+     "title": "Third: the summary (བསྡུ་བ)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-047",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་མཐར་འགྲོ་ཚུལ་ནི། དགེ་རྩ་འཆ༷ད་པ་དང༷་མཚམ༷ས་སྦྱོར༷་བ་སོགས་ཀྱི་",
+     "title": "གསུམ་པ་མཐར་འགྲོ་ཚུལ་ (third: how one goes to the end)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-048",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གཉིས་པ་གང་དུ་སྐྱེ་བ་སྣོད་ཀྱི་འཇིག་རྟེན་ལ་",
+     "title": "གང་དུ་སྐྱེ་བ་སྣོད་ཀྱི་འཇིག་རྟེན་"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རིམ་པ་དང་ཚད་དངོས་)ལ་གསུམ། རྟེན་བཤད།",
+     "title": "རིམ་པ་དང་ཚད་དངོས།"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(རྟེན་བཤད་)ལ་གཉིས། རླུང་གི་དཀྱིལ་འཁོར།",
+     "title": "རྟེན་བཤད།"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(རླུང་གི་དཀྱིལ་འཁོར་)ནི།",
+     "title": "རླུང་གི་དཀྱིལ་འཁོར།"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་ཆུ་དང་གསེར་གྱི་དཀྱིལ་འཁོར་བཤད་པ་ནི།",
+     "title": "ཆུ་དང་གསེར་གྱི་དཀྱིལ་འཁོར།"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-049",
+   "score": 0.7499999999999999,
+   "tp_pos": 6,
+   "tp_depth": 6,
+   "n_gold": 8,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་བརྟེན་པ་བཤད་པ་ལ། རི་བཤད། མཚོ་བཤད། གླིང་བཤད་པའོ། །",
+     "title": "གཉིས་པ་བརྟེན་པ་བཤད་པ (second: the supporting world)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རི་བཤད་)ནི། དེའི་རྗེས་ལ་ལས་དབང་གིས་ཆུ་དང་",
+     "title": "དང་པོ་ རི་བཤད (mountains)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་མཚོ་བཤད་པ་ནི། རི་རབ་ནས་མུ་ཁྱུད་འཛིན་དེ་དག་གི་",
+     "title": "གཉིས་པ་ མཚོ་བཤད (oceans)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་གླིང་བཤད་པ་ལ་གསུམ། གླིང་གཙོ་བོ། གླིང་ཕྲན། འཛམ་",
+     "title": "གསུམ་པ་ གླིང་བཤད (continents)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(གླིང་གཙོ་བོ་)ནི། དེ་ནས་ནི་གླིང་རྣམས་ཡིན་ནོ།",
+     "title": "དང་པོ་ གླིང་གཙོ་བོ (main continents)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་གླིང་ཕྲན་ནི། གླིང་བཞི་པོ་དེའི་བར་གྱི་གླིང་གཡོག་བརྒྱད་ནི།",
+     "title": "གཉིས་པ་ གླིང་ཕྲན (sub-continents)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་འཛམ་བུ་གླིང་གི་ཆོས་ཀྱི་ཁྱད་པར་ནི། འཛམ་བུའི་གླིང་གི་དབུས་",
+     "title": "གསུམ་པ་ འཛམ་བུ་གླིང་གི་ཆོས་ཀྱི་ཁྱད་པར (Jambudvipa specifics)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་སེམས་ཅན་གྱི་གནས་བྱེ་བྲག་ཏུ་བཤད་པ་ལ་གཉིས།",
+     "title": "གསུམ་པ་ སེམས་ཅན་གྱི་གནས་བཤད (abodes of beings)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-051",
+   "score": 0.6666666666666666,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་ལའང་གཉིས། གཞལ་ཡས་ཁང་ལ་བརྟེན་པ་དང༌། རི་ལ་བརྟེན་པའོ།",
+     "title": "དང་པོ་ལ་གཉིས (two sub-topics: palace, mountain)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(གཞལ་ཡས་ཁང་ལ་བརྟེན་པ་)ནི། ཉི་ཟླ་དང་སྐར་མ་རྣམས་ཡིན་ནོ།",
+     "title": "གཞལ་ཡས་ཁང་ལ་བརྟེན་པ (dependent on the mansion)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རི་ལ་བརྟེན་པ་ནི། རི་རབ་འདི་ལ་བང་རིམ་བཞི་ཡོད་དོ།",
+     "title": "རི་ལ་བརྟེན་པ (dependent on the mountain)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-053",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ས་དང་མ་འབྲེལ་བ་ནི།",
+     "title": "ས་དང་མ་འབྲེལ་བ (2nd item, leaf)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-055",
+   "score": 1.0,
+   "tp_pos": 7,
+   "tp_depth": 7,
+   "n_gold": 7,
+   "n_pred": 7,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཞར་ལ་སེམས་ཅན་གྱི་ཚད་ལ་གཉིས།",
+     "title": "སེམས་ཅན་གྱི་ཚད་ (ལུས་ཚད་དང་ཚེ་ཚད)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ལུས་ཚད་)ནི།",
+     "title": "ལུས་ཚད"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཚེ་ཚད་ལ།",
+     "title": "ཚེ་ཚད"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དངོས་)ནི།",
+     "title": "དངོས"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མཐོ་རིས་ཀྱི་ཚེ་ཚད་)ནི།",
+     "title": "མཐོ་རིས་ཀྱི་ཚེ་ཚད"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་ངན་སོང་བའི་ཚེ་ཚད་ནི།",
+     "title": "ངན་སོང་བའི་ཚེ་ཚད"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཞར་བྱུང་ནི།",
+     "title": "ཞར་བྱུང"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-068",
+   "score": 0.8333333333333334,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 6,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་གཏོང་ཚུལ་ལ་གསུམ།",
+     "title": "Second: how vows are lost (three divisions)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(སྡོམ་པ་)ལ་གཉིས།",
+     "title": "Loss of the vow (sdom pa): two kinds"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(སོ་ཐར་གྱི་སྡོམ་པ་)ནི།",
+     "title": "Loss of the individual liberation vow"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་བསམ་གཏན་ཟག་མེད་ཀྱི་སྡོམ་པའི་གཏོང་ཚུལ་ནི།",
+     "title": "Loss of the dhyana and uncontaminated vows"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་སྡོམ་མིན་གྱི་གཏོང་ཚུལ་ནི།",
+     "title": "Loss of the non-vow (sdom min)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་སྡོམ་པ་སྡོམ་མིན་བར་མའི་གཏོང་ཚུལ་ནི།",
+     "title": "Loss of the intermediate (bar ma) vows"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-070",
+   "score": 1.0,
+   "tp_pos": 10,
+   "tp_depth": 10,
+   "n_gold": 10,
+   "n_pred": 10,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གཉིས་པ་མདོ་ལས་འབྱུང་བའི་མིང་གི་རྣམ་གྲངས་ལ་བཅོ་ལྔ་ཡོད་པ་ལས། དང་པོ་མཚན་ཉིད་ཀྱི་",
+     "title": "Second division: fifteen names from the sutra"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་མཚན་ཉིད་ཀྱི་སྒོ་ནས་དབྱེ་བ་མདོར་བསྟན་པ་ནི།",
+     "title": "Division by characteristics, brief statement"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་འབྲས་བུའི་སྒོ་ནས་དབྱེ་བ་ལ་གཉིས། བསྟན། བཤད་དོ།",
+     "title": "Second: division by result, two parts"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། ལས་དེ་ལ་གསུམ་ཡོད་དེ།",
+     "title": "First: brief statement of the results"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་རྒྱས་པ་བཤད་ལ་གཉིས། བསོད་ནམས་སོགས་བཤད་པ་དང༌།",
+     "title": "Second: extensive explanation, two parts"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(བསོད་ནམས་སོགས་བཤད་པ་)ནི། འོ་ན། བསོད་ནམས་ཀྱི་ལས་ལ་སོགས་པ་གང་ཞེ་ན།",
+     "title": "First: explanation of merit and related actions"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་བདེ་སོགས་བཤད་པ་ལ་གསུམ། མྱོང་འགྱུར་གསུམ་པོ་སོ་སོའི་མཚན་གཞི།",
+     "title": "Second: explanation of happiness and related, three parts"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་(མྱོང་འགྱུར་གསུམ་པོ་སོ་སོའི་མཚན་གཞི་)ལ་གཉིས། རང་ལུགས་དང༌། གཞན་ལུགས་སོ།",
+     "title": "First: bases of the three experiences, two views"
+    },
+    {
+     "depth": 6,
+     "anchor": "དང་པོ་(རང་ལུགས་)ནི། བདེ་བ་མྱོང་འགྱུར་ལ་སོགས་གསུམ། །ཞེས་བཤད་ན།",
+     "title": "First: own system"
+    },
+    {
+     "depth": 6,
+     "anchor": "གཉིས་པ་གཞན་ལུགས་ནི། བསམ་གཏན་བཞི་པའི་འོག༷་གསུམ་པ་མན་ཆད་ན༷འང༷་བར༷་མ༷་མྱོང་བར་འགྱུར་བའི་ལས་ཡོད༷་དོ༷་ཞེས༷་ཁ༷་ཅི༷ག་ཟེར༷་ཏེ༷།",
+     "title": "Second: other system"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-073",
+   "score": 0.8727272727272728,
+   "tp_pos": 11,
+   "tp_depth": 9,
+   "n_gold": 11,
+   "n_pred": 11,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་རྒྱུའི་སྒོ་ནས་དབྱེ་བ་ནི།",
+     "title": "Third: division by cause"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་རྒྱུ་འབྲས་གཉིས་ཀའི་སྒོ་ནས་དབྱེ་བ་ལ།",
+     "title": "Fourth: division by cause and result"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། ཡང་མདོ་ལས། ལས་དཀར༷་ལ་",
+     "title": "Brief statement"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ནི། འོ་ན། ལས་དེ་དག་གི་ངོ་བོ་",
+     "title": "Extended explanation"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་རྟེན་གྱི་སྒོ་ནས་དབྱེ་བ་ནི།",
+     "title": "Fifth: division by basis"
+    },
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་བྱེད་པའི་སྒོ་ནས་དབྱེ་བ་ནི།",
+     "title": "Sixth: division by agent"
+    },
+    {
+     "depth": 1,
+     "anchor": "བདུན་པ་ལེགས་སྤྱད་དང་ཉེས་སྤྱད་བཤད་པ་ལ་གསུམ།",
+     "title": "Seventh: good and bad conduct"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ལས་ལམ་གྱི་རྣམ་གཞག་)ལ། བསྟན། བཤད་དོ།",
+     "title": "Divisions of the action paths"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། མདོ་ལས། ཉེས་སྤྱད་གསུམ་དང་ལེགས་སྤྱད་གསུམ་",
+     "title": "Brief statement of good and bad conduct"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་བདུན། རིག་བྱེད་དང་རིག་བྱེད་མ་ཡིན་པའི་ངེས་པ།",
+     "title": "Extended explanation of the seven topics"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(རིག་བྱེད་དང་རིག་བྱེད་མ་ཡིན་པའི་ངེས་པ་)ནི། ལུས་ངག་གི་དགེ་མི་དགེ་དག་",
+     "title": "Perceptible and imperceptible certainty"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-076",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བདུན་པ་ལས་ལམ་གྱི་འབྲས་བུ་ནི། མི་དགེ་བའི་ལས་ལམ་ཐམ༷ས་ཅད༷་ཀྱིས་བདག༷་པོའི༷་འབྲས་བུ་དང༌།",
+     "title": "Seventh: fruition of nonvirtuous actions"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-077",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ལོག་འཚོ་ལོགས་སུ་སྟོན་པའི་རྒྱུ་མཚན་ནི།",
+     "title": "Second: reason for separately teaching wrong livelihood"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་ལས་གང་འབྲས་བུ་དུ་དང་བཅས་པ་ནི།",
+     "title": "Third: which karma is accompanied by a result"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-084",
+   "score": 1.0,
+   "tp_pos": 6,
+   "tp_depth": 6,
+   "n_gold": 6,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཞར་བྱུང་ལ་ལྔ། སྤང་བྱ་ངེས་པ། ལྟ་བ་སོ་སོའི་མཚན་ཉིད། ལྟ་བ་ཐ་མ་དང་",
+     "title": "ཞར་བྱུང་ལ་ལྔ (five subtopics)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(སྤང་བྱ་ངེས་པ་)ནི། འོ་ན། ཕྲ་རྒྱས་མཐོང་སྤང་རྣམས་མཐོང་ལམ་ཁོ་ན་དང༌།",
+     "title": "སྤང་བྱ་ངེས་པ (what is to be abandoned)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ལྟ་བ་སོ་སོའི་མཚན་ཉིད་ནི། ལྟ་བ་ལྔ་སྟེ། ཞེས་བཤད་ན། ལྟ་བ་ལྔ་པོ་",
+     "title": "ལྟ་བ་སོ་སོའི་མཚན་ཉིད (characteristics of each view)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ལྟ་བ་ཐ་མ་དང་འབྲེལ་བའི་རྩོད་སྤང་ནི། འོ་ན། དབང༷་ཕྱུག༷་སོག༷ས་",
+     "title": "ལྟ་བ་ཐ་མ་དང་འབྲེལ་བའི་རྩོད་སྤང (refutation linked to the last view)"
+    },
+    {
+     "depth": 2,
+     "anchor": "བཞི་པ་ཕྱིན་ཅི་ལོག་གི་རབ་དབྱེ་ནི། རྟག་བདག་ཕྱིན་ཅི་ལོག་པ་ཡིས། །ཞེས་བཤད་ན།",
+     "title": "ཕྱིན་ཅི་ལོག་གི་རབ་དབྱེ (divisions of distorted views)"
+    },
+    {
+     "depth": 2,
+     "anchor": "ལྔ་པ་ང་རྒྱལ་གྱི་དབྱེ་བ་སྤྲོས་པ་དང་བཅས་པ་ནི། ལྟ་བ་ཁོ་ན་ལ་དབྱེ་བ་ཡོད་དམ་ཞེ་ན།",
+     "title": "ང་རྒྱལ་གྱི་དབྱེ་བ་སྤྲོས་པ་དང་བཅས་པ (divisions of conceit with elaboration)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-085",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྣམ་པའི་བྱེ་བྲག་ལ་ལྔ། རྒྱུ་ལ་ལྟོས་པའི་རབ་དབྱེ།",
+     "title": "Second: divisions by aspect (five)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རྒྱུ་ལ་ལྟོས་པའི་རབ་དབྱེ་)ནི། ཕྲ་རྒྱས་དེ་དག་ལས་ཁམས་ཀུན་ཏུ་འགྲོ་བ་ཡིན་པ་ནི་དུ་ཞེ་ན།",
+     "title": "First: division by cause"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དམིགས་ཡུལ་ལ་ལྟོས་པའི་རབ་དབྱེ་ནི། ཕྲ་རྒྱས་དེ་དག་ལས་ཟག་བཅས་དང་ཟག་མེད་ལ་དམིགས་པ་དུ་ཞེ་ན།",
+     "title": "Second: division by object-basis"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-087",
+   "score": 0.7999999999999999,
+   "tp_pos": 8,
+   "tp_depth": 8,
+   "n_gold": 9,
+   "n_pred": 11,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཞར་ལ་དུས་གསུམ་གྱི་རྣམ་གཞག་དཔྱད་པ་ལ་གསུམ།",
+     "title": "གཉིས་པ། དུས་གསུམ་གྱི་རྣམ་གཞག་དཔྱད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཡུལ་དུས་གསུམ་རྫས་སུ་བསྒྲུབ་པ་)ནི།",
+     "title": "དང་པོ། ཡུལ་དུས་གསུམ་རྫས་སུ་བསྒྲུབ་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དངོས༷་པོ་གཞན་དུ་འགྱུར་བར་སྨྲ་བ་)ནི།",
+     "title": "དངོས་པོ་གཞན་དུ་འགྱུར་བར་སྨྲ་བ"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་(མཚན༷་ཉིད༷་གཞན་དུ་འགྱུར་བ་)ནི།",
+     "title": "མཚན་ཉིད་གཞན་དུ་འགྱུར་བ"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་(གནས༷་སྐབ༷ས་གཞན༷་དུ་འགྱུར་བ་)ནི།",
+     "title": "གནས་སྐབས་གཞན་དུ་འགྱུར་བ"
+    },
+    {
+     "depth": 3,
+     "anchor": "བཞི་པ་(གཞན༷་དང་གཞན་དུ་འགྱུར༷་བར་སྨྲ་བ་ཞེས༷་བྱ༷་བ་)ནི།",
+     "title": "གཞན་དང་གཞན་དུ་འགྱུར་བར་སྨྲ་བ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དེ་ལ་རྩོད་པ་དགོད་པ་ནི།",
+     "title": "གཉིས་པ། དེ་ལ་རྩོད་པ་དགོད་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་ནི། གྲངས་ཅན་གྱི་ཕྱོགས་སུ་བསླན་པར་བྱ་བ་ཡིན་ཏེ།",
+     "title": "དང་པོ། གྲངས་ཅན་གྱི་ཕྱོགས"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ལ། དུས་གསུམ་འཆོལ་བར་ཐལ་བའི་སྐྱོན་ཡོད་དེ།",
+     "title": "གཉིས་པ། དུས་གསུམ་འཆོལ་བར་ཐལ་བ"
+    },
+    {
+     "depth": 3,
+     "anchor": "བཞི་པ་ལ། དུས་གཅིག་ཀྱང་གསུམ་གར་ཐལ་བའི་སྐྱོན་ཡོད་དེ།",
+     "title": "བཞི་པ། དུས་གཅིག་ཀྱང་གསུམ་གར་ཐལ་བ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་དེའི་ལན་གདབ་པ་ནི།",
+     "title": "གསུམ་པ། དེའི་ལན་གདབ་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-090",
+   "score": 0.625,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 8,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "མདོར་བསྟན་པ (brief teaching)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་བཞི། ཀུན་སྦྱོར། འཆིང་བ། ཉེ་ཉོན།",
+     "title": "རྒྱས་བཤད (extensive explanation)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཀུན་སྦྱོར་)ལ་གསུམ། ཀུན་སྦྱོར་དགུ། འོག་མའི་ཆ་མཐུན་ལྔ།",
+     "title": "ཀུན་སྦྱོར (the latent tendencies)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(ཀུན་སྦྱོར་དགུ་)ནི། ཀུན་སྦྱོར་དགུ་ཡོད་དེ།",
+     "title": "ཀུན་སྦྱོར་དགུ (nine latent tendencies)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་འོག་མའི་ཆ་མཐུན་ལྔ་ནི། ཀུན་སྦྱོར་ཐ་མའི་ཆ་མཐུན་",
+     "title": "འོག་མའི་ཆ་མཐུན་ལྔ (five lower-realm concordant)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་གོང་མའི་ཆ་མཐུན་ལྔ་ནི། ཡང་མདོ་ལས་གོང་མའི་ཆ་དང་",
+     "title": "གོང་མའི་ཆ་མཐུན་ལྔ (five upper-realm concordant)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་འཆིང་བ་ནི། འཆིང་བ་ལ་དུ་ཞེ་ན།",
+     "title": "འཆིང་བ (bondage)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ཉེ་ཉོན་ནི། རྩ་བའི་ཉོན་མོངས་པ་དྲུག་ལས་གཞན་པའི་",
+     "title": "ཉེ་ཉོན (secondary afflictions)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-096",
+   "score": 0.4666666666666666,
+   "tp_pos": 7,
+   "tp_depth": 2,
+   "n_gold": 7,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྟེན་སྣོད་དུ་རུང་བའི་ཆོས་ཀྱི་ཁྱད་པར་ནི།",
+     "title": "རྟེན་སྣོད་དུ་རུང་བའི་ཆོས་ཀྱི་ཁྱད་པར"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་སྒོམ་པ་ལ་འཇུག་པའི་ཚུལ་དངོས་ལ།",
+     "title": "སྒོམ་པ་ལ་འཇུག་པའི་ཚུལ་དངོས"
+    },
+    {
+     "depth": 2,
+     "anchor": "ཞི་གནས་དང༌། ལྷག་མཐོང་གཉིས།",
+     "title": "ཞི་གནས་དང་ལྷག་མཐོང་"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(ཞི་གནས་)ལ་གཉིས།",
+     "title": "ཞི་གནས་"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "མདོར་བསྟན་པ"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གཉིས།",
+     "title": "རྒྱས་བཤད"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་(མི་སྡུག་པ་བསྒོམ་པ་)ནི།",
+     "title": "མི་སྡུག་པ་བསྒོམ་པ"
+    },
+    {
+     "depth": 5,
+     "anchor": "གཉིས་པ་དབུགས་འབྱུང་རྔུབ་བསྒོམ་པ་ནི།",
+     "title": "དབུགས་འབྱུང་རྔུབ་བསྒོམ་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-102",
+   "score": 0.7764705882352941,
+   "tp_pos": 8,
+   "tp_depth": 6,
+   "n_gold": 8,
+   "n_pred": 9,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་དགྲ་བཅོམ་ལ།",
+     "title": "Fourth: the arhat"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཞུགས་པ་)ནི།",
+     "title": "1 Entering (ཞུགས་པ)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་གནས་པ་ལ་བདུན།",
+     "title": "2 Abiding (གནས་པ)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དངོས་)ནི།",
+     "title": "2.1 The actual (དངོས)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཞར་ལ་སྤང་བྱ་སྤོང་ཚུལ་ལ་གསུམ།",
+     "title": "2.2 Incidental abandonment of objects to abandon"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(ལམ་གང་གིས་ས་གང་གི་སྤང་བྱ་སྤོང༌པ་)ནི།",
+     "title": "2.2.1 Which path abandons which ground's objects"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པས་གང་གིས་ས་གང་གི་སྤང་བྱ་སྤོང་བ་ནི།",
+     "title": "2.2.2 Which ground abandons which ground's objects"
+    },
+    {
+     "depth": 4,
+     "anchor": "གསུམ་པ་ཞར་ལ་འཇིག་རྟེན་པའི་ལམ་གྱི་དམིགས་རྣམ་ནི།",
+     "title": "2.2.3 Aspects of the worldly path as object"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་ཤེས་པའི་འབྱུང་ཚུལ་ནི།",
+     "title": "2.3 How knowledge of exhaustion arises"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-105",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་མཇུག་བསྡུ་བ་ནི།",
+     "title": "གཉིས་པ་མཇུག་བསྡུ་བ (second, concluding summary)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-108",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བདུན་པ་མི་སློབ་པའི་ཆོས་བྱེ་བྲག་ཏུ་བཤད་པ་ལ།",
+     "title": "Seventh: explanation of distinct dharmas of non-learner (dngos and zhar-la spang-bya spong-tshul)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(དངོས་)ནི།",
+     "title": "First: the actual (dngos) topic"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཞར་ལ་སྤང་བྱ་སྤོང་ཚུལ་ནི།",
+     "title": "Second: incidental manner of abandoning what is to be abandoned"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-109",
+   "score": 0.26666666666666666,
+   "tp_pos": 4,
+   "tp_depth": 0,
+   "n_gold": 5,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(ཤེས་པའི་གཞི་)ནི། གོང་དུ་བཟོད་པ་ཞེས་ཀྱང་བཤད།",
+     "title": "ཤེས་པའི་གཞི། (basis of knowledge)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཤེས་པའི་རང་བཞིན་ལ་ལྔ། བསྡུ་བ་ཡུལ་དང་བཅས།",
+     "title": "ཤེས་པའི་རང་བཞིན། (nature of knowledge)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(བསྡུ་བ་ཡུལ་དང་བཅས་)ནི། མདོ་ལས། ཤེས་པ་ནི་བཅུ་སྟེ།",
+     "title": "བསྡུ་བ་ཡུལ་དང་བཅས་པ། (summary with objects)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དབྱེ་བ་ཁྱད་པར་དང་བཅས་པ་ནི། ཆོས་ཤེས་དང་རྗེས་ཤེས་དེ༷་དག༷་ཉིད༷་ལ་",
+     "title": "དབྱེ་བ་ཁྱད་པར་དང་བཅས་པ། (divisions with distinctions)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-111",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་ཆོས་ཀྱི་ཁྱད་པར་ནི། ཤེས་པ་བཅུ་པོ་དགེ་མི་དགེ་ལུང་མ་བསྟན་",
+     "title": "ལྔ་པ་ཆོས་ཀྱི་ཁྱད་པར (Fifth: distinctions of dharmas)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-113",
+   "score": 0.6666666666666666,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ས་གང་དུ་ཤེས་པ་དུ་འཐོབ་པ་ནི།",
+     "title": "ས་གང་དུ་ཤེས་པ་འཐོབ་པ (second: where the knowledge is obtained)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་འཇིག་རྟེན་པའི་ལམ་ལ་ནི་མི་ལྕོགས་མེད་ལ་བརྟེན་ནས་འདོད་པ་ལས་",
+     "title": "འཇིག་རྟེན་པའི་ལམ (first path: mundane path)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་འདས་ལམ་ནི་བསམ་གཏན་གཉིས་པ་ལྟ་བུ་གང༷་ལས༷་འདོད་ཆག༷ས་",
+     "title": "འདས་ལམ (second path: path of transcendence)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་འཐོབ་པའི་དབྱེ་བ་ནི།",
+     "title": "འཐོབ་པའི་དབྱེ་བ (third: divisions of obtaining)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-116",
+   "score": 1.0,
+   "tp_pos": 11,
+   "tp_depth": 11,
+   "n_gold": 11,
+   "n_pred": 11,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཐུན་མོང་གི་ཡོན་ཏན་ལ་གཉིས།",
+     "title": "Second: common qualities"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "Brief statement"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གཉིས།",
+     "title": "Extensive explanation"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(འཕགས་པ་དང་ཐུན་མོང་བ་)ལ་བཞི།",
+     "title": "Common to noble beings"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(ཉོན་མོངས་མེད་པ་)ནི།",
+     "title": "Freedom from afflictions"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་སྨོན༷་ནས༷་ཤེས༷་པ༷་ནི།",
+     "title": "Knowledge of aspiration"
+    },
+    {
+     "depth": 4,
+     "anchor": "གསུམ་པ་སོ་སོ་ཡང་དག་པར་རིག་པ་བཞི་བཤད་པ་ནི།",
+     "title": "Four individual correct knowledges"
+    },
+    {
+     "depth": 4,
+     "anchor": "བཞི་པ་འཐོབ་ཚུལ་ནི།",
+     "title": "Manner of attainment"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་སྐྱེ་འཕགས་གཉིས་ཀ་དང་ཐུན་མོང་བ་ལ་ལྔ།",
+     "title": "Common to ordinary and noble beings"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(དབྱེ་བ་)ནི།",
+     "title": "Divisions"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་ངོ་བོ་ནི།",
+     "title": "Nature"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-119",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་དོགས་གཅོད་ལྷག་མ་བཤད་པ་ནི། ཅི་རྫུ་འཕྲུལ་ཁོ་ན",
+     "title": "གསུམ་པ་དོགས་གཅོད་ལྷག་མ་བཤད་པ (third: explaining the remaining doubts)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-121",
+   "score": 0.8333333333333334,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 6,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་བསམ་གཏན་གྱི་ཡན་ལག་ལ་གཉིས།",
+     "title": "Second: branches of concentration (two)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རྒྱུ་སྙོམས་འཇུག་གི་ཡན་ལག་)ལ་གསུམ།",
+     "title": "First: causal meditative absorption (three)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དགེ་བའི་ཡན་ལག་)ལ་གཉིས།",
+     "title": "First: virtuous branches (two)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མིང་གི་སྒོ་ནས་དབྱེ་བ་)ནི།",
+     "title": "First: division by name"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་ རྫས་ཀྱི་སྒོ་ནས་བསྡུ་བ་ནི།",
+     "title": "Second: collection by substance"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཉོན༷་མོང༷ས་ཅན༷་གྱི་ཡན་ལག་ནི།",
+     "title": "Second: afflicted branches"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-128",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་ཕྱི་རབས་ལ་བག་ཡོད་བྱ་བར་གདམས་པ་ནི།",
+     "title": "Third: exhorting care in later times"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-001",
+   "score": 0.7333333333333332,
+   "tp_pos": 8,
+   "tp_depth": 6,
+   "n_gold": 10,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(མཚན་གྱི་དོན་)ལ་གསུམ།",
+     "title": "Name's meaning (three parts)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་ནི། རྒྱ༷་གར༷་ན་སྐད་རིགས་ཆེན་པོ་བཞི་ཡོད་པ་ལས།",
+     "title": "Translation of the name"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་(མཚན་བཤད་པ་)ནི་འོག་ཏུ་འཆད།",
+     "title": "Explanation of the name"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་(མཚན་གྱི་དགོས་པ་)ནི།",
+     "title": "Purpose of the name"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་གཞུང་གི་དོན་ལ་གཉིས།",
+     "title": "Main text's meaning (two parts)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(བསྟན་བཅོས་རྩོམ་པ་ལ་འཇུག་པའི་ཡན་ལག་)ལ་གསུམ།",
+     "title": "Entry points to composing the treatise (three parts)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མཆོད་བརྗོད་སྔོན་དུ་འགྲོ་བས་རྩོམ་པར་དམ་བཅའ་བ་)ལ་གཉིས།",
+     "title": "Homage and vow to compose (two parts)"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་རྩོམ་པར་དམ་བཅའ་བ་ནི།",
+     "title": "Vow to compose"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-002",
+   "score": 1.0,
+   "tp_pos": 6,
+   "tp_depth": 6,
+   "n_gold": 6,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་སྤྲོ་བ་སྔོན་དུ་བཏང་ནས་མཚན་གྱི་དོན་བཤད་པ་ལ་གཉིས།",
+     "title": "Second: explaining the meaning of the title"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཆོས་མངོན་པ་བཤད་པ་)ནི།",
+     "title": "Explaining the Abhidharma"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་ནི། མཐོང་སྒོམ་མི་སློབ་ལམ་གསུམ་གྱི་",
+     "title": "Abhidharma in the actual sense"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་བརྡར་བཏགས་པའི་ཆོས་མངོན་པ་ནི།",
+     "title": "Abhidharma in the nominal sense"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་མཛོད་བཤད་པ་ནི།",
+     "title": "Explaining the Treasury"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་དགོས་པ་སྔོན་དུ་འགྲོ་བས་སྟོན་པས་གསུངས་པར་བསྒྲུབ་པ་ནི།",
+     "title": "Third: establishing that the Teacher taught it for a purpose"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-009",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཆོས་གཞན་བསྡུ་བའི་ཚུལ་ལ་གཉིས།",
+     "title": "ཆོས་གཞན་བསྡུ་བའི་ཚུལ"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཆོས་ཀྱི་ཕུང་པོ་བསྡུ་བའི་ཚུལ་)ནི།",
+     "title": "ཆོས་ཀྱི་ཕུང་པོ་བསྡུ་བའི་ཚུལ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དེ་གཞན་ལའང་སྦྱར་བ་ནི།",
+     "title": "དེ་གཞན་ལ་སྦྱར་བ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-012",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་བྱུང་བ་གསུམ་གྱི་རབ་དབྱེ་ནི།",
+     "title": "Fourth: division of the three kinds of arising"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་རྫས་ཡོད་ལ་སོགས་པ་ལྔ་བཤད་པ་ནི།",
+     "title": "Fifth: explanation of the five beginning with substantially existent"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-013",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་མཐོང་སྤང་ལ་སོགས་པའི་རབ་དབྱེ་ནི།",
+     "title": "དྲུག་པ་མཐོང་སྤང་ལ་སོགས་པའི་རབ་དབྱེ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-018",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་རྣམ་པའི་རབ་དབྱེ་ལ་བཞི། གྲོགས་ལ། རྒྱུ་འབྲས་ལ། ངོ་བོ་ལ། སྤང་བྱ་ལ་ལྟོས་པའི་རབ་དབྱེའོ།",
+     "title": "Third: aspects of the faculties (4 sub-divisions)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(གྲོགས་ལ་ལྟོས་པའི་རབ་དབྱེ་བ་)ནི། དབང་པོ་ཉེར་གཉིས་པོ་འདི་དག་ལས་ཟག་བཅས་ནི་དུ།",
+     "title": "Relative to companions (grogs)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱུ་འབྲས་ལ་ལྟོས་པའི་རབ་དབྱེ་ནི། སྲོག༷་གི་དབང་པོ་ནི༷་རྣམ༷་སྨིན༷་ཡིན་ཏེ།",
+     "title": "Relative to cause and result (rgyu-'bras)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ངོ་བོ་ལ་ལྟོས་པའི་རབ་དབྱེ་ནི། ཡང་དབང་པོ་དེ་དག་ལས་གཅིག་ཏུ་དགེ༷་བ༷་ནི་དད་སོགས་ལྔ་དང་ཟག་མེད་གསུམ་སྟེ་བརྒྱད༷་ཡིན་ཏེ།",
+     "title": "Relative to essence (ngo-bo)"
+    },
+    {
+     "depth": 2,
+     "anchor": "བཞི་པ་སྤང་བྱ་ལ་ལྟོས་པའི་རབ་དབྱེ་ནི། ཡིད༷་དང༷་ཚོར༷་བ༷་བདེ་བ། ཡིད་བདེ། བཏང་སྙོམས་ཀྱི་དབང་པོ་གསུམ༷་ལ་མཐོང་སྤང་དང༌།",
+     "title": "Relative to what is to be abandoned (spang-bya)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-028",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་སྲོག་ནི། སྲོག་དང༌། ཞེས་བཤད་ན། སྲོག་དེ་གང་ཞེ་ན།",
+     "title": "Fifth: life (སྲོག)"
+    },
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་མཚན་ཉིད་ནི། མཚ༷ན་ཉིད༷་དག༷་ནི༷་སྐྱེ༷་བ༷་དང༷༌། རྒ༷་བ་དང༷༌།",
+     "title": "Sixth: characteristics (མཚན་ཉིད)"
+    },
+    {
+     "depth": 1,
+     "anchor": "བདུན་པ་བརྗོད་བྱེད་ནི། སྔར་མདོར་བསྟན་པའི་མིང༷་གི༷་ཚོག༷ས་དང༌།",
+     "title": "Seventh: expressions (བརྗོད་བྱེད)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-029",
+   "score": 0.9333333333333333,
+   "tp_pos": 14,
+   "tp_depth": 14,
+   "n_gold": 15,
+   "n_pred": 15,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ཞར་ལ་རྒྱུ་རྐྱེན་འབྲས་བུ་དང་བཅས་པ་བཤད་པ་ལ་གཉིས་ལས",
+     "title": "Cause and result with accompanying factors; cause and condition"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རྒྱུ་འབྲས་བུ་དང་བཅས་པ་བཤད་པ་)ལ་གསུམ།",
+     "title": "Explaining cause and result together (three parts)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(རྒྱུ་བཤད་པ་)ལ་གསུམ།",
+     "title": "Explaining the cause (three parts)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "Brief statement"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་དྲུག་ལས།",
+     "title": "Extensive explanation (six causes)"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་ནི། བྱེད་རྒྱུ་ལྷན་ཅིག་འབྱུང་བ་དང༌།",
+     "title": "Creative cause (byed-rgyu)"
+    },
+    {
+     "depth": 5,
+     "anchor": "གཉིས་པ་ལྷན་ཅིག་འབྱུང་བའི་རྒྱུ་ལ་གཉིས།",
+     "title": "Co-arising cause (two parts)"
+    },
+    {
+     "depth": 6,
+     "anchor": "དང་པོ་(མཚན་ཉིད་)ནི།",
+     "title": "Defining characteristic"
+    },
+    {
+     "depth": 6,
+     "anchor": "གཉིས་པ་མཚན་གཞི་ལ་གཉིས།",
+     "title": "Basis of characteristics (two parts)"
+    },
+    {
+     "depth": 7,
+     "anchor": "དང་པོ་(སྤྱིར་བསྟན་པ་)ནི།",
+     "title": "General statement"
+    },
+    {
+     "depth": 7,
+     "anchor": "གཉིས་པ་(སེམས་ཀྱི་རྗེས་འཇུག་བྱེ་བྲག་ཏུ་བཤད་པ་)ནི།",
+     "title": "Specific explanation of mental followers"
+    },
+    {
+     "depth": 5,
+     "anchor": "གསུམ་པ་སྐལ་མཉམ་གྱི་རྒྱུ་ནི།",
+     "title": "Equal-share cause (skal-mnyam)"
+    },
+    {
+     "depth": 5,
+     "anchor": "བཞི་པ་ནི། མཚུངས་ལྡན་གྱི་རྒྱུ་གང་ཞེ་ན།",
+     "title": "Homogeneous cause (mtshungs-ldan)"
+    },
+    {
+     "depth": 5,
+     "anchor": "ལྔ་པ་ནི། ཀུན་འགྲོའི་རྒྱུ་གང་ཞེ་ན།",
+     "title": "Universal cause (kun-'gro)"
+    },
+    {
+     "depth": 5,
+     "anchor": "དྲུག་པ་ནི། རྣམ་སྨིན་གྱི་རྒྱུ་གང་ཞེ་ན།",
+     "title": "Ripening cause (rnam-smin)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-031",
+   "score": 0.8,
+   "tp_pos": 4,
+   "tp_depth": 4,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་འབྲས་བུ་བཤད་པ་ལ། བསྟན། བཤད་གཉིས་ལས། དང་པོ་",
+     "title": "འབྲས་བུ་བཤད་པ (two divisions: བསྟན / བཤད)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། རྒྱུ་འབྲས་ཕན་ཚུན་ལྟོས་པས",
+     "title": "མདོར་བསྟན་པ (brief statement)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ། འབྲས་བུ་གང་རྒྱུ་གང་གི་ཡིན་པ། སོ་སོའི་མཚན་ཉིད་བཤད་པའོ།",
+     "title": "རྒྱས་བཤད་པ (detailed explanation)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(འབྲས་བུ་གང་རྒྱུ་གང་གི་ཡིན་པ་)ནི། འབྲས་བུ་དེ་དག་རྒྱུ་གང་གི་འབྲས་བུ་ཡིན་ཞེ་ན།",
+     "title": "འབྲས་བུ་གང་རྒྱུ་གང་གི་ཡིན་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་སོ་སོའི་མཚན་ཉིད་ནི། རྣམ་སྨིན་གྱི་འབྲས་བུ་དེ་མ་བསྒྲིབས་ལ།",
+     "title": "སོ་སོའི་མཚན་ཉིད"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-033",
+   "score": 1.0,
+   "tp_pos": 8,
+   "tp_depth": 8,
+   "n_gold": 8,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྐྱེན་བཤད་པ་ལ། བསྟན། བཤད་གཉིས་ལས།",
+     "title": "རྐྱེན་བཤད་པ (two parts: བསྟན, བཤད)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་མདོར་བསྟན་པ་ནི།",
+     "title": "དང་པོ་ མདོར་བསྟན་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་བཞི།",
+     "title": "གཉིས་པ་ རྒྱས་བཤད (four parts)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(རྐྱེན་སོ་སོའི་མཚན་ཉིད་)ནི།",
+     "title": "རྐྱེན་སོ་སོའི་མཚན་ཉིད"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་(རྐྱེན་གང་འབྲས་བུ་དུས་གསུམ་པ་གང་ལ་བྱ་བ་བྱེད་པ་)ནི།",
+     "title": "རྐྱེན་གང་ འབྲས་བུ་དུས་གསུམ་ལ་བྱ་བ་བྱེད་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་(དངོས་པོ་གང་རྐྱེན་དུས་སྐྱེད་པ་)ནི།",
+     "title": "དངོས་པོ་གང་ རྐྱེན་དུས་སྐྱེད་པ"
+    },
+    {
+     "depth": 3,
+     "anchor": "བཞི་པ་དེ་མ་ཐག་པའི་རྐྱེན་རྒྱས་པར་བཤད་པ་ལ་གསུམ།",
+     "title": "དེ་མ་ཐག་པའི་རྐྱེན་རྒྱས་པར་བཤད་པ (three parts)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(སེམས་བཅུ་གཉིས་སུ་དབྱེ་བ་)ལ།",
+     "title": "སེམས་བཅུ་གཉིས་སུ་དབྱེ་བ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-037",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གསུམ་པ་འཇིག་རྟེན་བསྟན་པའི་གནས་བཤད་པ་ལ་གཉིས།",
+     "title": "འཇིག་རྟེན་བསྟན་པའི་གནས་བཤད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(གང་སྐྱེ་བ་སེམས་ཅན་གྱི་འཇིག་རྟེན་)ལ་གསུམ།",
+     "title": "གང་སྐྱེ་བ་སེམས་ཅན་གྱི་འཇིག་རྟེན"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དབྱེ་བ་)ལ་གཉིས།",
+     "title": "དབྱེ་བ"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(ཁམས་གསུམ་དུ་དབྱེ་བ་)ནི།",
+     "title": "ཁམས་གསུམ་དུ་དབྱེ་བ"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་འགྲོ་བ་ལྔར་དབྱེ་བ་ནི།",
+     "title": "འགྲོ་བ་ལྔར་དབྱེ་བ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-041",
+   "score": 1.0,
+   "tp_pos": 9,
+   "tp_depth": 9,
+   "n_gold": 9,
+   "n_pred": 9,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་བར་དུ་གནས་ཚུལ་ལ་གཉིས།",
+     "title": "Second: the intermediate state (bar-do) dependent origination"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(གང་གནས་པ་སེམས་ཀྱི་རྟེན་འབྲེལ་)ལ་གསུམ།",
+     "title": "First: dependent origination of the mind that abides"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི།",
+     "title": "Brief presentation"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གསུམ།",
+     "title": "Second: extensive explanation"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(གནས་སྐབས་པའི་རྟེན་འབྲེལ་)ལ་བཞི།",
+     "title": "First: dependent origination of the intermediate phase"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་(རང་བཞིན་)ལ་གསུམ།",
+     "title": "First: nature itself"
+    },
+    {
+     "depth": 6,
+     "anchor": "དང་པོ་(དབྱེ་བ་)ནི།",
+     "title": "First: divisions"
+    },
+    {
+     "depth": 6,
+     "anchor": "གཉིས་པ་སོ་སོའི་མཚན་ཉིད་ནི།",
+     "title": "Second: individual characteristics"
+    },
+    {
+     "depth": 6,
+     "anchor": "གསུམ་པ་དེ་དག་གི་ངེས་པ་ནི།",
+     "title": "Third: certainty about them"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-042",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་བསྡུ་བ་དཔྱད་པ་ནི།",
+     "title": "Second: examining the collection (བསྡུ་བ་དཔྱད་པ)"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་གྲངས་ངེས་པའི་རྒྱུ་མཚན་ནི།",
+     "title": "Third: reason for the definite number (གྲངས་ངེས་པའི་རྒྱུ་མཚན)"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་འབྱུང་བྱུང་གི་ཁྱད་པར་ནི།",
+     "title": "Fourth: difference between arising and produced (འབྱུང་བྱུང་གི་ཁྱད་པར)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-046",
+   "score": 1.0,
+   "tp_pos": 6,
+   "tp_depth": 6,
+   "n_gold": 6,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་གང་གིས་གནས་པ་ཟས་ཀྱི་རྟེན་འབྲེལ་ལ། བས",
+     "title": "Food as the support for abiding (two parts: teaching, explanation)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་ནི། འོ་ན། འགྲོ་བ་རྣམས་ཁམས་གསུམ་དུ་གང་གིས་གནས་ཤེ་ན",
+     "title": "བསྟན (the teaching)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གསུམ།",
+     "title": "བཤད (the extensive explanation, three parts)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(ཟས་ཀྱི་རང་བཞིན་)ནི།",
+     "title": "The nature of food"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཞར་ལ་བར་སྲིད་ཀྱི་མིང་གི་རྣམ་གྲངས་ནི།",
+     "title": "Names of the intermediate existence"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་དེ་དག་གི་ངེས་པ་ནི།",
+     "title": "Definitive determination of these"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-052",
+   "score": 0.0,
+   "tp_pos": 0,
+   "tp_depth": 0,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་སུམ་ཅུ་རྩ་གསུམ་གྱི་གནས་ནི། ལྷུན་པོའི་",
+     "title": "གཉིས་པ། སུམ་ཅུ་རྩ་གསུམ་གྱི་གནས"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-057",
+   "score": 0.7454545454545454,
+   "tp_pos": 11,
+   "tp_depth": 7,
+   "n_gold": 11,
+   "n_pred": 11,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(དངོས་)ལ། བསྟན། བཤད་དོ། །",
+     "title": "Main part (dngos)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། བསྐལ༷་པ༷་རྣམ་པ་མང༷་དུ༷་བཤད༷་པ་ཡིན་ཏེ།",
+     "title": "Brief statement (mdor bstan pa)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་བཞི། འཇིག །འཆགས། གནས། བསྐལ་པ་ཆེན་པོའོ།",
+     "title": "Extensive explanation: four parts"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(འཇིག་པའི་བསྐལ་པ་)ནི། བསྐལ་པ་རྣམ་པ་མང་བཤད་པ། །ཞེས་བཤད་ན།",
+     "title": "Destruction eon (’jig pa’i bskal pa)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་འཆག༷ས་པའི༷་བསྐལ་པ་ནི། དང༷་པོ༷འོ་རླུང༷་འཇམ་བུ་ལྡང་བ་ནས་བཟུང་ནས་",
+     "title": "Formation eon (’chags pa’i bskal pa)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་གནས་པའི་བསྐལ་པ་ནི། བར་བསྐལ་ཉི་ཤུའོ། །བར༷་གྱི༷་བསྐལ༷་པ༷་རེ་རེའི་ཚད་ནི།",
+     "title": "Abiding eon (gnas pa’i bskal pa)"
+    },
+    {
+     "depth": 3,
+     "anchor": "བཞི་པ་བསྐལ་ཆེན་ནི། བར་བསྐལ་དེ༷་དག༷་བརྒྱད༷་ཅུ༷་ལ༷་བསྐལ༷་ཆེན༷་ཞེས་བྱའོ།",
+     "title": "Great eon (bskal chen)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཞར་ལས་བྱུང་བ་ལ་གཉིས། བསྐལ་ཆེན་གྱི་ཞར་བྱུང༌། འཇིག་བསྐལ་གྱི་ཞར་བྱུང་ངོ༌། །",
+     "title": "Digressions (zhar las byung ba)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(བསྐལ་ཆེན་གྱི་ཞར་བྱུང༌)ལ་གསུམ། སངས་རྒྱས། རང་རྒྱལ། འཁོར་ལོས་སྒྱུར་རྒྱལ་འབྱུང་ཚུལ་ལོ། །",
+     "title": "Digression on great eon: three"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(སངས་རྒྱས་)ནི། བསྐལ་པ་གྲངས་མེད་པ་གསུམ་དུ་ཚོགས་བསགས་པ་ལས་སངས་རྒྱས་འབྱུང་བར་བཤད་པའི་བསྐལ་པ་དེ་གང་ཞེ་ན།",
+     "title": "Buddhas"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་རང་རྒྱལ་འབྱུང་ཚུལ་ནི། རང་རྒྱལ་ཡང་མར་འགྲིབ་ཁོ་ན་ལ་འབྱུང་ངམ་ཞེ་ན།",
+     "title": "Pratyekabuddhas"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-061",
+   "score": 1.0,
+   "tp_pos": 4,
+   "tp_depth": 4,
+   "n_gold": 4,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྣམ་པར་རིག་བྱེད་མ་ཡིན་པ་ལ་གསུམ།",
+     "title": "Second: non-informative form, three topics"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ལུང་གི་སྒྲུབ་བྱེད་)ནི། རྣམ་རིག་བྱེད་མིན། ཞེས་བཤད་ན།",
+     "title": "Scriptural proof"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱུ་འབྱུང་བའི་ཁྱད་པར་ནི། འབྱུང་བ་ཆེ་རྣམས་རྒྱུར་བྱས་པ།",
+     "title": "Causal origin elements"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ཆོས་ཀྱི་ཁྱད་པར་ནི། རྣམ་པར་རིག་བྱེད་མ་ཡིན་པའི་གཟུགས་དེ་ཟིན་མ་ཟིན་གང༌།",
+     "title": "Dharma distinction"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-063",
+   "score": 0.9,
+   "tp_pos": 9,
+   "tp_depth": 9,
+   "n_gold": 10,
+   "n_pred": 10,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(སྡོམ་པ་)ལ་གཉིས། བསྟན། བཤད་དོ།",
+     "title": "Chapter 1: sdom-pa (vows)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(མདོར་བསྟན་པ་)ནི། དེ་བཞིན་དུ་སྡོམ༷་པ༷་གསུམ་དུ་ཤེས་པར་བྱ་སྟེ",
+     "title": "1. Brief presentation (mdor bstan pa)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྒྱས་བཤད་ལ་གསུམ། སོ་ཐར་གྱི་སྡོམ་པ། བསམ་གཏན་ཟག་མེད་ཀྱི་སྡོམ་པ། ཞར་བྱུང་ངོ། ། ",
+     "title": "2. Extensive explanation (rgyas bshad)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(སོ་ཐར་གྱི་སྡོམ་པ་)ལ་བཞི། དབྱེ་བ། ངོ་བོ། སྒྲ་དོན། ལྡན་པའི་གང་ཟག་གོ །",
+     "title": "2.1. Individual liberation vows (so thar)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(དབྱེ་བ་)ནི། སྡོམ་པ་སོ་སོར་ཐར་ཅེས་བྱ། །ཞེས་བཤད་ན",
+     "title": "2.1.1. Divisions (dbye ba)"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་ངོ་བོ་ནི། དེ་དག་གི་ངོ་བོ་གང་ཞེ་ན།",
+     "title": "2.1.2. Essence (ngo bo)"
+    },
+    {
+     "depth": 4,
+     "anchor": "གསུམ་པ་སྒྲ་དོན་ནི། ཅིའི་ཕྱིར་ཚུལ་ཁྲིམས་ལ་སོགས་པ་ཞེས་བྱ་ཞེ་ན།",
+     "title": "2.1.3. Meaning of the term (sgra don)"
+    },
+    {
+     "depth": 4,
+     "anchor": "བཞི་པ་ལྡན་པའི་གང་ཟག་ནི། སོ༷་སོར༷་ཐར༷་པའི་སྡོམ་པ་དང༷་ལྡན༷་པའི༷་གང་ཟག་",
+     "title": "2.1.4. Possessors (ldan pa'i gang zag)"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་བསམ་གཏན་ཟག་མེད་ཀྱི་སྡོམ་པ་ནི། བསམ༷་གཏན༷་ལས་སྐྱེས༷་པའི་ཏིང་ངེ་འཛིན་དང༷་ལྡན་པ་ནི།",
+     "title": "2.2. Meditative-stabilization and undefiled vows"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་ཞར་བྱུང་ནི། འོ་ན། སེམས་ཀྱི་རྗེས་འབྲང་དུ་བཤད་པའི་སྡོམ་པ་གཉིས་པོ་དེ་གང་ཞེ་ན།",
+     "title": "2.3. Digression (zhar byung)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-064",
+   "score": 0.7619047619047619,
+   "tp_pos": 8,
+   "tp_depth": 8,
+   "n_gold": 13,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ལྡན་ཚུལ་ལ་གསུམ།",
+     "title": "Second: the way of possessing (three parts)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རྣམ་པར་རིག་བྱེད་མ་ཡིན་པའི་ལྡན་ཚུལ་)ནི། སོ༷་སོར༷་ཐར༷་པའི་སྡོམ་པ་ལ་གནས༷་པ་",
+     "title": "Possession by non-informative (avijñapti) form"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྣམ་པར་རིག་བྱེད་ཀྱི་ལྡན་ཚུལ་ལ་གཉིས།",
+     "title": "Possession by informative (vijñapti) form"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དངོས་)ནི། རྣམ༷་པར་རིག༷་བྱེད༷་ནི༷་སྡོམ་པ་",
+     "title": "Actual possession"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཞར་བྱུང་ནི། སྡོམ་མིན་གནས་པ་དགེ་བ་དང༌།",
+     "title": "Incidental remarks"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ལྡན་པའི་མུ་བཞི་ནི། རྣམ་པར་རིག་བྱེད་དང་ལྡན་ལ།",
+     "title": "Four possibilities of possession"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་འཐོབ་གཏོང་ལ་གཉིས།",
+     "title": "Third: acquisition and loss"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(འཐོབ་ཚུལ་)ལ་གསུམ།",
+     "title": "Manner of acquisition"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-066",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་གང་ལས་འཐོབ་པ་ནི། སྡོམ་པ་རྣམས་གང་ལས་",
+     "title": "གཉིས་པ། སྡོམ་པ་གང་ལས་འཐོབ་པ་ (From what are the vows obtained)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-067",
+   "score": 0.6666666666666666,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་སྡོམ་མིན་གྱི་འཐོབ་ཚུལ་ནི། སྡོམ༷་པ༷་མིན༷་པ༷་གང་ལས་འཐོབ་སྙམ་ན།",
+     "title": "གཉིས་པ་སྡོམ་མིན་གྱི་འཐོབ་ཚུལ།"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་བར་མའི་འཐོབ་ཚུལ་ནི། སྡོམ་སྡོམ་མིན་གྱི་ལྷག༷་མ་བར་མའི༷་རྣམ༷་པར་རིག༷་བྱེད༷་མིན༷་པ་ཞིང༷་ལས་འཐོབ་པ་ནི།",
+     "title": "གསུམ་པ་བར་མའི་འཐོབ་ཚུལ།"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-071",
+   "score": 0.8999999999999999,
+   "tp_pos": 7,
+   "tp_depth": 6,
+   "n_gold": 7,
+   "n_pred": 7,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་མྱོང་འགྱུར་གྱི་དབྱེ་བ་ལ་གཉིས། ལྔར་དབྱེ་བ།",
+     "title": "Second: division of experienced (ripening) actions"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ལྔར་དབྱེ་བ་)ནི། མྱོང་བར་འགྱུར་བའི་ལས་རྣམ་པ་ལྔ་ཡོད་པ་ཡིན་ཏེ",
+     "title": "Division into five"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རྣམ་སྨིན་མྱོང་འགྱུར་བྱེ་བྲག་ཏུ་བཤད་པ་ལ་གཉིས། སྤྱིར་བསྟན།",
+     "title": "Second: explanation of ripening/experienced distinctions"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(སྤྱིར་བསྟན་)ལ་གཉིས། ལས་ཀྱི་དབྱེ་བ།",
+     "title": "General presentation: divisions of action"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(ལས་ཀྱི་དབྱེ་བ་)ནི། རྣམ་སྨིན་མྱོང་འགྱུར་གྱི་ལས་དེ་ལ་བཞི་སྟེ",
+     "title": "Divisions of action: four kinds"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་(ཁམས་དང་འགྲོ་བ་གང་ན་ལས་འཕན་པ་དུ་ཡོད་གཉིས་)ནི། ཁམས་དང་འགྲོ་བ་གང་ན་ལས་ཀྱི་འཕེན་པ་དུ་ཡོད་ཅེ་ན",
+     "title": "Where in realms and destinies action projects exist"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་མྱོང་ངེས་བྱེ་བྲག་ཏུ་བཤད་པ་ནི། རྣམ་སྨིན་མྱོང་ངེས་ཀྱི་ལས་དེ་གང་ཞེ་ན",
+     "title": "Second: explanation of definite experience distinctions"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-075",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་དགེ་རྩ་གཅོད་པ་དང་མཚམས་སྦྱོར་ཚུལ་ནི།",
+     "title": "དགེ་རྩ་གཅོད་པ་དང་མཚམས་སྦྱོར་ཚུལ"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་སེམས་པ་ལས་ལམ་དུ་དང་ལྷན་ཅིག་འབྱུང་བ་",
+     "title": "སེམས་པ་ལས་ལམ་དུ་དང་ལྷན་ཅིག་འབྱུང་བ"
+    },
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་ཁམས་དང་འགྲོ་བ་གང་ན་ལས་ལམ་དུ་ཡོད་",
+     "title": "ཁམས་དང་འགྲོ་བ་གང་ན་ལས་ལམ་དུ་ཡོད་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-078",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བརྒྱད་པ་རིགས་པ་དང་རིགས་པ་མིན་པས་བསྐྱེད་པའི་ལས་ཀྱི་དབྱེ་བ་ནི།",
+     "title": "Eighth: kinds of action produced by reasoning and non-reasoning"
+    },
+    {
+     "depth": 1,
+     "anchor": "དགུ་པ་འཕེན་བྱེད་དང་རྫོགས་བྱེད་ཀྱི་དབྱེ་བ་ནི།",
+     "title": "Ninth: projecting and completing actions"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཅུ་པ་སྒྲིབ་པ་གསུམ་བཤད་པ་ནི།",
+     "title": "Tenth: explanation of the three obscurations"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-080",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཅུ་གཉིས་པ་ཉེ་བ་ལ་བཤད་པ་ནི། ཅི་མཚམས་མེད་ཁོ",
+     "title": "Twelfth: explanation of the nearby (ཉེ་བ)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-082",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཅུ་བཞི་པ་ཆ་མཐུན་གསུམ་བཤད་པ་ནི།",
+     "title": "ཆ་མཐུན་གསུམ་བཤད་པ (14th: the three concordant virtues)"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཅོ་ལྔ་པ་རིག༷ས་པས༷་རབ༷་ཏུ༷་བཅུག༷་པའི༷་ལས༷",
+     "title": "རིགས་པས་རབ་ཏུ་བཅུག་པའི་ལས (15th: action of rigpa-based insertion)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-091",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་ཀུན་དཀྲིས་ལ། དངོས་དང༌། ཞར་བྱུང་གཉིས་ལ",
+     "title": "བཞི་པ་ཀུན་དཀྲིས་ (4: Kleshas)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཀུན་དཀྲིས་)ནི། འཁོར་བའི་བཙོན་རྭར་ཀུན་ནས་",
+     "title": "དངོས་པ: ཀུན་དཀྲིས་"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཞར་བྱུང་ལ་གཉིས། དྲི་མ་དྲུག །ཆོས་ཀྱི་ཁྱད་པར་རོ།",
+     "title": "གཉིས་པ་ཞར་བྱུང་"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དྲི་མ་དྲུག་)ནི། གཞན༷་ཡང༷་ལུས་ལས་དྲི་མ་ལྟར་",
+     "title": "དང་པོ་: དྲི་མ་དྲུག"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཆོས་ཀྱི་ཁྱད་པར་ནི། ཀུན་དཀྲིས་བཅུ་པོ་དེ་དག་ལ་",
+     "title": "གཉིས་པ་ཆོས་ཀྱི་ཁྱད་པར་"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-094",
+   "score": 1.0,
+   "tp_pos": 4,
+   "tp_depth": 4,
+   "n_gold": 4,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ལམ་གང་གི་འབྲས་བུ་གང་ཡིན་པ་ནི། ཡོངས་ཤེས་དེ",
+     "title": "གཉིས་པ། ལམ་གང་གི་འབྲས་བུ་གང་ཡིན་པ"
+    },
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་གྲངས་ངེས་ནི། མཐོང་སྒོམ་གྱི་འགོག་པ་བརྒྱད་ཅ",
+     "title": "གསུམ་པ། གྲངས་ངེས"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་གང་ཟག་གང་ལ་ལྡན་པ་ནི། འོ་ན། ཡོངས་ཤེས་དེ་ད",
+     "title": "བཞི་པ། གང་ཟག་གང་ལ་ལྡན་པ"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་འཐོབ་གཏོང་ནི། དུས་ཅིག་ཅར་ཡོངས་ཤེས་དུ་གཏོང་ཞེ",
+     "title": "ལྔ་པ། འཐོབ་གཏོང་"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-097",
+   "score": 0.7999999999999999,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ལྷག་མཐོང་བསྒོམ་པ་ལ་གསུམ།",
+     "title": "Second division: insight meditation, three paths"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ཚོགས་ལམ་)ནི། ཞི་གནས་ཀྱི་ཏིང་ངེ་འཛིན་གྲུབ་ཀྱང་ལྷག",
+     "title": "First: path of accumulation (tshogs lam)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་དེའི་ངོ་བོ་ནི་ཤེས༷་རབ༷་ཡིན་ལ།",
+     "title": "First of the three topics: its nature (ngo bo)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-098",
+   "score": 1.0,
+   "tp_pos": 4,
+   "tp_depth": 4,
+   "n_gold": 4,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་སྦྱོར་ལམ་ལ་གསུམ།",
+     "title": "Second: the joining path (sbyor-lam)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(སྦྱོར་ལམ་གྱི་རང་བཞིན་)ནི།",
+     "title": "Nature of the joining path"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཆོས་ཀྱི་ཁྱད་པར་ནི།",
+     "title": "Distinctions of the Dharma"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་དོགས་གཅོད་གཞན་བསྟན་པ་ནི།",
+     "title": "Showing other doubts resolved"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-101",
+   "score": 0.825,
+   "tp_pos": 8,
+   "tp_depth": 6,
+   "n_gold": 8,
+   "n_pred": 8,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་གནས་པ་ལ་གཉིས། སྤྱིར་བསྟན། བྱེ་བྲག་ཏུ་བཤད་པའོ། །",
+     "title": "གནས་པ (Abiding)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(སྤྱིར་བསྟན་པ་)ནི། ཕྱིར་མི་འོང་ཞུགས་པ་དེ༷་འདོད་ཉོན་ད༷གུ༷་པ་",
+     "title": "སྤྱིར་བསྟན (General presentation)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་བྱེ་བྲག་ཏུ་བཤད་པ་ལ་གསུམ། དབྱེ་བ། སྤེལ་མ་སྒོམ་པ། ལུས་མངོན་བྱེད་བཤད་པའོ། །",
+     "title": "བྱེ་བྲག་ཏུ་བཤད་པ (Detailed explanation)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(དབྱེ་བ་)ལ་གཉིས། དངོས་དང༌། དོན་གྱི་ཁྱད་པར་རོ། །",
+     "title": "དབྱེ་བ (Classification)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་(དངོས་)ནི། ཕྱིར་མི་འོང་ལ་གཟུགས་སུ་ཉེར་འགྲོ་དང༌།",
+     "title": "དངོས (Main classification)"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་དོན་གྱི་ཁྱད་པར་ནི། བར་དོར་འདའ་བ་དང༌།",
+     "title": "དོན་གྱི་ཁྱད་པར (Differences in meaning)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་སྤེལ་མ་བསྒོམ་པ་ནི། སྔར་བསམ་གཏན་སྤེལ་ནས་འོག་མིན་འགྲོ་ཞེས་བཤད་པས།",
+     "title": "སྤེལ་མ་སྒོམ་པ (Meditating on Spelma)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ལུས་མངོན་བྱེད་བཤད་པ་ནི། ཕྱིར་མི་འོང་ལུས་མངོན་བྱེད་གང་ཞེ་ན།",
+     "title": "ལུས་མངོན་བྱེད་བཤད་པ (Bodily manifestation)"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-103",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་དགེ་སྦྱོང་ཚུལ་གྱི་བསྡུ་བ་ནི།",
+     "title": "4th: Summary of the discipline-holder's conduct fruits"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་ཚངས་པའི་འཁོར་ལོ་ནི།",
+     "title": "5th: The Brahma wheel"
+    },
+    {
+     "depth": 1,
+     "anchor": "དྲུག་པ་དགེ་སྦྱོང་ཚུལ་གྱི་འབྲས་བུ་འཐོབ་ཚུལ་ནི།",
+     "title": "6th: How the fruits of the discipline-holder's conduct are attained"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-106",
+   "score": 1.0,
+   "tp_pos": 7,
+   "tp_depth": 7,
+   "n_gold": 7,
+   "n_pred": 7,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་མངོན་རྟོགས་ཀྱི་ལམ་བསྟན་པ་ལ་གསུམ། སྦྱོར་སོགས་བཞི་བཤད་པ།",
+     "title": "Path of manifest realization (3 parts)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(སྦྱོར་སོགས་བཞི་བཤད་པ་)ནི།",
+     "title": "Four preparatory path aspects"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་གནས་དང༷་དབང་པོ་ཐམས་ཅད་པའི་ལམ་བཤད་པ་ནི།",
+     "title": "Paths by abode and faculties"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་བྱང་ཆུབ་ཕྱོགས་མཐུན་གྱི་ལམ་བཤད་པ་ལ་བདུན།",
+     "title": "Factors conducive to enlightenment (7 topics)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(མིང་གི་སྒོ་ནས་དབྱེ་བ་)ནི།",
+     "title": "Division by names"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་རྫས་ཀྱི་སྒོ་ནས་དབྱེ་བ་ནི།",
+     "title": "Division by substances"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་སྡེ་ཚན་གྱི་གོ་རིམ་ནི།",
+     "title": "Order of groupings"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-107",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་ངོ་བོའི་ཁྱད་པར་ནི། འོ་ན། བྱང་ཆུབ་ཀྱི",
+     "title": "བཞི་པ་ངོ་བོའི་ཁྱད་པར།"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་ས་གང་གིས་བསྡུས་པ་ནི། ས་གང་ན་དུ་ཡོད་ཅེ་ན།",
+     "title": "ལྔ་པ་ས་གང་གིས་བསྡུས་པ།"
+    },
+    {
+     "depth": 1,
+     "anchor": "༈ དྲུག་པ་ཞར་ལ་ཤེས་ནས་དད་པ་ཐོབ་ཚུལ་ནི། ཡ",
+     "title": "དྲུག་པ་ཞར་ལ་ཤེས་ནས་དད་པ་ཐོབ་ཚུལ།"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-110",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་གྲངས་ངེས་གཉེན་པོའི་བྱེ་བྲག་དང་བཅས་པ་ནི།",
+     "title": "གསུམ་པ་ གྲངས་ངེས་གཉེན་པོའི་བྱེ་བྲག་དང་བཅས་པ"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་རྣམ་པའི་བྱེ་བྲག་ནི།",
+     "title": "བཞི་པ་ རྣམ་པའི་བྱེ་བྲག"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-117",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གསུམ་པ་ཆོས་ཀྱི་ཁྱད་པར་ནི། འོ་ན། དེ་དག་ས་གང་ན་ཡོད་ཅེ་ན། མངོན་པར་ཤེས",
+     "title": "གསུམ་པ་ཆོས་ཀྱི་ཁྱད་པར"
+    },
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་མངོན་ཤེས་ཀྱིས་བསྡུས་པའི་ཡོན་ཏན་ལ་གཉིས། རིག་པ་གསུམ་བཤད།",
+     "title": "བཞི་པ་མངོན་ཤེས་ཀྱིས་བསྡུས་པའི་ཡོན་ཏན"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(རིག་པ་གསུམ་བཤད་པ་)ནི། དགྲ་བཅོམ་པའི་རྒྱུད་ཀྱི་མངོན་ཤེས་ཐ་མ་གསུམ",
+     "title": "རིག་པ་གསུམ་བཤད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ཆོ་འཕྲུལ་གསུམ་བཤད་པ་ནི། མངོན་ཤེས་དེ་དག་ལས་ད༷ང་པོ༷་རྫུ་འཕྲུལ་དང༌།",
+     "title": "ཆོ་འཕྲུལ་གསུམ་བཤད་པ"
+    },
+    {
+     "depth": 1,
+     "anchor": "ལྔ་པ་མངོན་ཤེས་དང་པོ་རྒྱས་པར་བཤད་པ་ལ་གསུམ། རྫུ་འཕྲུལ་གྱི་མངོན་ཤེས་བཤད",
+     "title": "ལྔ་པ་མངོན་ཤེས་དང་པོ་རྒྱས་པར་བཤད་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-118",
+   "score": 1.0,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 5,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་(རྫུ་འཕྲུལ་གྱི་མངོན་ཤེས་བཤད་པ་)ལ་གསུམ།",
+     "title": "རྫུ་འཕྲུལ་གྱི་མངོན་ཤེས་བཤད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(ངོ་བོ་ཡུལ་དང་བཅས་པ་)ནི།",
+     "title": "ངོ་བོ་ཡུལ་དང་བཅས་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་སྤྲུལ་སེམས་བཤད་པ་ནི།",
+     "title": "སྤྲུལ་སེམས་བཤད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་རྫུ་འཕྲུལ་གྱི་དབྱེ་བ་ནི།",
+     "title": "རྫུ་འཕྲུལ་གྱི་དབྱེ་བ"
+    },
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ལྷའི་མིག་རྣ་བཤད་པ་ནི།",
+     "title": "ལྷའི་མིག་རྣ་བཤད་པ"
+    }
+   ]
+  },
+  {
+   "id": "IBA-LWS-08-123",
+   "score": 0.9230769230769229,
+   "tp_pos": 6,
+   "tp_depth": 6,
+   "n_gold": 7,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "བཞི་པ་གང་ལས་གང་འབྱུང་བ་ལ་གསུམ།",
+     "title": "Fourth division: from which sources the three arise"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་(གསུམ་པོ་གང་ལས་གང་འབྱུང་བ་)ལ་གཉིས།",
+     "title": "Three arise from which: first division"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་(སྙོམས་འཇུག་གི་དབང་དུ་བྱས་པ་)ནི།",
+     "title": "Viewed from the meditative absorption"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་དེ་ལས་གཞན་པའི་དབང་དུ་བྱས་པ་ནི།",
+     "title": "Viewed from other than absorption"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་དག་པ་བ་བྱེ་བྲག་ཏུ་བཤད་པ་ནི།",
+     "title": "Specific explanation of the pure-abode (dag-pa-ba) type"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ཐོད་རྒལ་གྱི་སྙོམས་འཇུག་བྱེ་བྲག་ཏུ་བཤད་པ་ནི།",
+     "title": "Specific explanation of the thod-rgal absorption"
+    }
+   ]
+  }
+ ],
+ "skill:variants/sabcad-outliner-toc|test": [
+  {
+   "id": "RCP-FM-07-000",
+   "score": 1.0,
+   "tp_pos": 0,
+   "tp_depth": 0,
+   "n_gold": 0,
+   "n_pred": 0,
+   "headings": []
+  },
+  {
+   "id": "RCP-FM-07-001",
+   "score": 0.9090909090909091,
+   "tp_pos": 5,
+   "tp_depth": 5,
+   "n_gold": 5,
+   "n_pred": 6,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "དང་པོ་ལ་གཉིས་ཏེ། ཐུན་མོང་དང་ཁྱད་པར་རོ། །",
+     "title": "Two divisions: common and special"
+    },
+    {
+     "depth": 2,
+     "anchor": "ཐུན་མོང་ལ་གཉིས་ཏེ། རྒྱུད་དག་པར་བྱེད་པ་ཡི་གེ་བརྒྱ་པའི་ཁྲིད།",
+     "title": "Common: two parts"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་ནི། དབེན་པའི་གནས་སུ་སྟན་བདེ་བ་ལ་ལུས་སྐྱིལ་",
+     "title": "Purifying the tantra: first part"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་ཚོགས་རྫོགས་པར་བྱེད་པ་མཎྜལ་ལ་གཉིས། སྒྲུབ་པའི་མཎྜལ་དང༌།",
+     "title": "Completing the accumulations: mandala, two parts"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་ནི། རབ་རིན་པོ་ཆེའི་མཎྜལ། འབྲིང་ས་དང་ཤིང་གི་མཎྜལ།",
+     "title": "Practice mandala"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་མཆོད་པའི་མཎྜལ་ནི། མཎྜལ་གཞན་ཡོད་ན་སྔ་མ་དེ་ཀ་རང་ལ་བཞག",
+     "title": "Offering mandala"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-002",
+   "score": 0.39999999999999997,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 12,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གཉིས་པ་ཁྱད་པར་གྱི་སྔོན་འགྲོ་ལ་གསུམ་སྟེ། བྱམས་པ་དང༌། སྙིང་རྗེ་དང༌། བྱང་ཆུབ་ཀྱི་སེམས་བསྒོམ་པའོ།",
+     "title": "Second: special preliminaries (three)"
+    },
+    {
+     "depth": 2,
+     "anchor": "ཅེས་པས་དང་པོ་ལ་བཞི་སྟེ། བྱམས་པ་སྐྱེ་བར་བྱེད་པའི་རྒྱུ།",
+     "title": "Loving-kindness (four aspects)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་ནི། རང་གི་ཕ་མ་དང་མཁན་སློབ་ལ་སོགས་ཀྱི་དྲིན་དྲན་པའི་སྒོ་ནས་སྐྱེ།",
+     "title": "Cause of arising of loving-kindness"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་བྱམས་པའི་བོ་ངོ་ནི། བྱམས་པ་གཅེས་ཕྲུག་མཐོང་ན་སྐྱེ།",
+     "title": "Nature of loving-kindness"
+    },
+    {
+     "depth": 3,
+     "anchor": "གསུམ་པ་བྱམས་པའི་བོགས་འདོན་ལ་གཉིས་ཏེ། རྩ་བའི་མ་ལ་བརྟེན་ཏེ་བསྒོམ་པ་དང༌།",
+     "title": "Cultivation of loving-kindness (two)"
+    },
+    {
+     "depth": 4,
+     "anchor": "དང་པོ་ནི། གོང་དུ་བརྗོད་པ་ལྟར་དྲིན་དྲན་པའི་སྒོ་ནས། ཡིད་རྩེ་གཅིག་ཏུ་མ་ལ་བྱམས་པ་བསྒོམ།",
+     "title": "Meditating on the mother as root"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་སེམས་ཅན་ཐམས་ཅད་ལ་སྤེལ་ཏེ་བསྒོམ་པ་ནི། རྩ་བའི་མ་ལ་ཇི་ལྟར་སྐྱེས་པའི་བྱམས་པ་དེ།",
+     "title": "Extending to all sentient beings"
+    },
+    {
+     "depth": 3,
+     "anchor": "བཞི་པ་བྱམས་པའི་བྱེད་ལས་ནི། མི་མཐུན་པའི་རྐྱེན་དང་བར་ཆོད་ཐམས་ཅད་མི་འབྱུང་བར་བྱེད་པ།",
+     "title": "Function of loving-kindness"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་སྙིང་རྗེ་ནི། བདག་དང་བདག་ཅག་ཐམས་ཅད་ལ་སྡང་བར་བྱེད་པའི་དགྲ།",
+     "title": "Compassion"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་བྱང་ཆུབ་ཀྱི་སེམས་ལ་གཉིས་ཏེ། །སྨོན་པ་བྱང་ཆུབ་མཆོག་ཏུ་སེམས་བསྐྱེད་པ་དང་།",
+     "title": "Bodhicitta (two)"
+    },
+    {
+     "depth": 3,
+     "anchor": "དང་པོ་ནི། བདག་དང་བདག་ཅག་ཐམས་ཅད་ལ་སྡང་བར་བྱེད་པའི་དགྲ། གནོད་པར་བྱེད་པའི་བགེགས།",
+     "title": "Aspiring bodhicitta"
+    },
+    {
+     "depth": 3,
+     "anchor": "གཉིས་པ་འཇུག་པ་བྱང་ཆུབ་ཆོག་ཏུ་སེམས་བསྐྱེད་པ་ནི་ཤིན་ཏུ་ཡང་གལ་ཆེ་སྟེ།",
+     "title": "Engaging bodhicitta"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-003",
+   "score": 1.0,
+   "tp_pos": 2,
+   "tp_depth": 2,
+   "n_gold": 2,
+   "n_pred": 2,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གཉིས་པ་དངོས་གཞི་ལ་གཉིས། བསྐྱེད་པའི་རིམ་པ་དང༌།",
+     "title": "དངོས་གཞི (main body): bskyed-rim and rdzogs-rim"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་ལ་གཉིས་ཏེ། ཡི་དམ་གྱི་ལྷ་བསྒོམ་པ་དང༌།",
+     "title": "དང་པོ (bskyed-rim): yi-dam deity and bla-ma meditation"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-004",
+   "score": 1.0,
+   "tp_pos": 4,
+   "tp_depth": 4,
+   "n_gold": 4,
+   "n_pred": 4,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་བླ་མ་བསྒོམ་པ་ལ། རྗེ་རིན་པོ་ཆེ་ཞལ་ནས། བླ་མ་སྐུ་བཞིའི་གངས་རི་ལ།",
+     "title": "གཉིས་པ་བླ་མ་བསྒོམ་པ་ལ (Second: meditating on the guru)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་ནི། དེ་ལྟར་ཡི་དམ་དུ་གསལ་བའི་སྤྱི་བོར།",
+     "title": "དང་པོ: བླ་མ་སྤྲུལ་པའི་སྐུར་བསྒྲུབ་པ (Practice as emanation body)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་ལོངས་སྤྱོད་རྫོགས་པའི་སྐུར་བསྒྲུབ་པ་ནི།",
+     "title": "གཉིས་པ: ལོངས་སྤྱོད་རྫོགས་པའི་སྐུར་བསྒྲུབ་པ (Practice as enjoyment body)"
+    },
+    {
+     "depth": 2,
+     "anchor": "གསུམ་པ་ཆོས་ཀྱི་སྐུར་སྒྲུབ་པ་ནི། དེ་ཉིད་ཀྱི་ངང་ལས་སེམས་མ་བཅོས་པར་བཞག་སྟེ།",
+     "title": "གསུམ་པ: ཆོས་ཀྱི་སྐུར་སྒྲུབ་པ (Practice as dharmakaya)"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-005",
+   "score": 0.36666666666666664,
+   "tp_pos": 4,
+   "tp_depth": 3,
+   "n_gold": 6,
+   "n_pred": 12,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གཉིས་པ་རྫོགས་པའི་རིམ་པ་ནི།",
+     "title": "Completion stage (rdzogs-rim)"
+    },
+    {
+     "depth": 2,
+     "anchor": "མཉམ་བཞག་དང༌།",
+     "title": "Equipoise (mnyam-bzhag)"
+    },
+    {
+     "depth": 2,
+     "anchor": "རྗེས་ཐོབ་བོ།",
+     "title": "Subsequent attainment (rjes-thob)"
+    },
+    {
+     "depth": 3,
+     "anchor": "ཏིང༌ངེ་འཛིན་བསྒོམ་པ་དང༌།",
+     "title": "Meditating samadhi"
+    },
+    {
+     "depth": 3,
+     "anchor": "དེའི་དོན་ངོ་སྤྲོད་པའོ།",
+     "title": "Identifying its meaning"
+    },
+    {
+     "depth": 4,
+     "anchor": "མཚན་མ་ཅན་དང༌།",
+     "title": "With signs"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་ནི། སློབ་དཔོན་ཀླུ་སྒྲུབ་ཀྱི་ཞལ་ནས།",
+     "title": "Signs: first (Nagarjuna's words)"
+    },
+    {
+     "depth": 4,
+     "anchor": "གཉིས་པ་མཚན་མེད་པ་ལ་བཞི་སྟེ།",
+     "title": "Without signs (four parts)"
+    },
+    {
+     "depth": 5,
+     "anchor": "དང་པོ་ནི། ལུས་གནད་གོང་ལྟར་བཅས་ལ།",
+     "title": "Abandoning mental engagement"
+    },
+    {
+     "depth": 5,
+     "anchor": "གཉིས་པ་ནི། བརྩོན་འགྲུས་ཆེན་པོས།",
+     "title": "Keeping mindfulness with great effort"
+    },
+    {
+     "depth": 5,
+     "anchor": "གསུམ་པ་ནི། སྒོམ་མེད་ཀྱི་དོན་དེ།",
+     "title": "Keeping the non-meditation state"
+    },
+    {
+     "depth": 5,
+     "anchor": "བཞི་པ་ནི། བསྒྲིམས་ལྷོད་གཉིས་ཀྱི་མཐའ་དང་།",
+     "title": "Free from tension and laxity"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-006",
+   "score": 1.0,
+   "tp_pos": 3,
+   "tp_depth": 3,
+   "n_gold": 3,
+   "n_pred": 3,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་ངོ་སྤྲོད་ལ་གཉིས་ཏེ། མཉམ་བཞག་ཞི་གནས་ངོ་སྤྲད་པ",
+     "title": "ངོ་སྤྲོད་ (2 divisions)"
+    },
+    {
+     "depth": 2,
+     "anchor": "དང་པོ་ནི། དེ་ལྟར་སེམས་འདས་མ་འོངས་དུས་གསུམ་གྱི་རྟོག་པས་དབེ",
+     "title": "མཉམ་བཞག་ཞི་གནས་ངོ་སྤྲད་པ"
+    },
+    {
+     "depth": 2,
+     "anchor": "གཉིས་པ་རང་རིག་ཕྱག་རྒྱ་ཆེན་པོར་ངོ་སྤྲོད་པ་ནི། ཐེག་པ་ཆེན་པོ་ལ་",
+     "title": "རང་རིག་ཕྱག་རྒྱ་ཆེན་པོར་ངོ་སྤྲོད་པ"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-007",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "གཉིས་པ་རྗེས་ནི།",
+     "title": "Second: the subsequent attainment (rjes)"
+    }
+   ]
+  },
+  {
+   "id": "RCP-FM-07-008",
+   "score": 1.0,
+   "tp_pos": 1,
+   "tp_depth": 1,
+   "n_gold": 1,
+   "n_pred": 1,
+   "headings": [
+    {
+     "depth": 1,
+     "anchor": "༈ གསུམ་པ་རྗེས་བསྔོ་བ་ནི། རྗེ་རིན་པོ་ཆེའི་ཞལ་ནས། ཚོགས་གཉིས་ཡིད་བཞིན་གྱི་",
+     "title": "གསུམ་པ་རྗེས་བསྔོ་བ། (Third: dedication)"
+    }
+   ]
+  }
+ ]
+}

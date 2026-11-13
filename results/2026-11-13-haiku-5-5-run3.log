@@ -1,0 +1,18 @@
+instruction chars (colleague): 20863 | sets: {'unused': 76, 'test': 9, 'seen': 48}
+2026/11/13 13:20:02 WARNING dspy.primitives.base_module: There is a mismatch of dspy version between saved model and current environment. You saved with `dspy==3.4.1`, but now you have `dspy==3.5.0`. This might cause errors or performance downgrade on the loaded model, please consider loading the model in the same environment as the saving environment.
+2026/11/13 13:21:11 INFO dspy.evaluate.evaluate: Average Metric: 69.06928383589423 / 76 (90.9%)
+[ours            | unused] mean  90.88  (n=76)
+2026/11/13 13:21:22 INFO dspy.evaluate.evaluate: Average Metric: 7.9307936507936505 / 9 (88.1%)
+[ours            | test  ] mean  88.12  (n=9)
+2026/11/13 13:24:25 INFO dspy.evaluate.evaluate: Average Metric: 70.00535337211808 / 76 (92.1%)
+[colleague       | unused] mean  92.11  (n=76)
+2026/11/13 13:24:52 INFO dspy.evaluate.evaluate: Average Metric: 6.91801948051948 / 9 (76.9%)
+[colleague       | test  ] mean  76.87  (n=9)
+2026/11/13 13:27:39 INFO dspy.evaluate.evaluate: Average Metric: 65.19517521693992 / 76 (85.8%)
+[colleague+tool  | unused] mean  85.78  (n=76)
+2026/11/13 13:30:00 INFO dspy.evaluate.evaluate: Average Metric: 6.2846861471861475 / 9 (69.8%)
+[colleague+tool  | test  ] mean  69.83  (n=9)
+2026/11/13 13:31:54 INFO dspy.evaluate.evaluate: Average Metric: 59.029595330261635 / 76 (77.7%)
+[seed            | unused] mean  77.67  (n=76)
+2026/11/13 13:32:07 INFO dspy.evaluate.evaluate: Average Metric: 6.773593073593074 / 9 (75.3%)
+[seed            | test  ] mean  75.26  (n=9)

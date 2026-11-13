@@ -1,0 +1,5 @@
+instruction chars (colleague): 20863 | sets: {'unused': 76, 'test': 9, 'seen': 48}
+2026/11/13 13:38:11 INFO dspy.evaluate.evaluate: Average Metric: 66.97225702402173 / 76 (88.1%)
+[skill:variants/sabcad-outliner-toc | unused] mean  88.12  (n=76)
+2026/11/13 13:38:38 INFO dspy.evaluate.evaluate: Average Metric: 6.750252100840336 / 9 (75.0%)
+[skill:variants/sabcad-outliner-toc | test  ] mean  75.00  (n=9)

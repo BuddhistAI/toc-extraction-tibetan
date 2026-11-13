@@ -1,0 +1,5 @@
+instruction chars (colleague): 20809 | sets: {'unused': 76, 'test': 9, 'seen': 48}
+[colleague+tool  | unused] mean  88.99  (n=76)
+[colleague+tool  | test  ] mean  78.99  (n=9)
+[ours            | unused] mean  90.17  (n=76)
+[ours            | test  ] mean  90.10  (n=9)
