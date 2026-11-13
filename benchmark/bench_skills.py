@@ -92,6 +92,18 @@ class ColleagueInstr(dspy.Module):
         return self.extract(text=text)
 
 
+def usage_of(pred):
+    """Tokens the API reported for this prediction (every LM call it made), or None if unavailable."""
+    try:
+        u = pred.get_lm_usage() or {}
+    except Exception:
+        return None
+    if not u:
+        return None
+    return {'input_tokens': sum(int(x.get('prompt_tokens') or 0) for x in u.values()),
+            'output_tokens': sum(int(x.get('completion_tokens') or 0) for x in u.values())}
+
+
 def split_sets(data, max_chars=6500):
     """unused and test come from buddhist-benchmarks (pinned in benchmark.json); seen is GEPA's data in data/train.jsonl."""
     sets = g.load_dataset(data, max_chars)
@@ -111,7 +123,7 @@ def main():
     ap.add_argument('--out', default=str(HERE.parent / 'results' / 'bench_results.json'))
     a = ap.parse_args()
     g.load_key()
-    dspy.configure(lm=g.make_lm(a.model, temperature=a.temperature))
+    dspy.configure(lm=g.make_lm(a.model, temperature=a.temperature), track_usage=True)  # usage goes into every row
     sets = split_sets(a.data)
     instr = skill_text()
     print('instruction chars (colleague):', len(instr), '| sets:', {k: len(v) for k, v in sets.items()}, flush=True)
@@ -141,7 +153,7 @@ def main():
             for ex, pred, score in res.results:
                 hs = getattr(pred, 'headings', None)
                 s, fb, det = g.evaluate_headings(ex.text, ex.gold, hs)
-                rows.append(dict(id=ex.id, score=float(score), **det,
+                rows.append(dict(id=ex.id, score=float(score), **det, usage=usage_of(pred),
                                  headings=[g._as_dict(h) for h in (hs or [])]))
             results[f'{c}|{sname}'] = rows
             print(f'[{c:15s} | {sname:6s}] mean {float(res.score):6.2f}  (n={len(exs)})', flush=True)

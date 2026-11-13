@@ -7,6 +7,7 @@ Reads results/<date>-<model>-[promoted-]run<N>.json, averages the runs (mean and
 deviation) per split, and writes tasks/toc-extraction/results/bo/runs/<run-id>/result.json in the
 buddhist-benchmarks checkout. Format: buddhist-benchmarks docs/results.md.
 
+Token usage is the mean per pass over the test set, from the API counts bench_skills.py logs per item.
 Splits: `same-book` is the lab's `unused` set, `held-out-book` is its `test` set, `all` is both.
 Metrics are micro-averaged over headings, exactly as the official scorer computes them:
   structure_f1   = 2 * (position and depth matches) / (predicted + reference)
@@ -64,6 +65,14 @@ def main():
         per_run = [{s: metrics([r for p in parts for r in sp[p]]) for s, parts in SPLITS.items()}
                    for sp in by_file.values()]
         scores = {s: {k: mean_std([r[s][k] for r in per_run]) for k in per_run[0][s]} for s in SPLITS}
+        rows_all = [r for sp in by_file.values() for p in SPLITS['all'] for r in sp[p]]
+        if any(r.get('usage') is None for r in rows_all):
+            raise SystemExit(f'{cond} {model}: some rows have no usage; run bench_skills.py again (it logs tokens), '
+                             'or for old runs use scripts/estimate_usage.py')
+        n = len(by_file)
+        usage = {'input_tokens': round(sum(r['usage']['input_tokens'] for r in rows_all) / n),
+                 'output_tokens': round(sum(r['usage']['output_tokens'] for r in rows_all) / n),
+                 'items': len(rows_all) // n, 'estimated': False}
         run_id = f"{a.date}-toc-extraction-tibetan-{variant}-{version}-{a.commit}-{model.removeprefix('claude-')}"
         result = {
             'schema': 'buddhist-benchmarks/result@1',
@@ -75,7 +84,7 @@ def main():
             'harness': 'toc-extraction-tibetan benchmark/bench_skills.py (DSPy 3.5.0 ChainOfThought)',
             'headline': 'structure_f1',
             'scores': scores,
-            'cost_usd': None,
+            'usage': usage,
             'date': a.date, 'by': 'WeBuddhist',
             'report': 'https://github.com/BuddhistAI/toc-extraction-tibetan/blob/main/REPORT.md',
         }
