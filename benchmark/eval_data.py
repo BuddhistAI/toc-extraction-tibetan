@@ -17,7 +17,7 @@ CACHE = HERE / 'eval' / PIN['tag'].replace('/', '-')
 
 def fetch():
     """Download the pinned data set into benchmark/eval/<tag>/ unless it is already there."""
-    if (CACHE / 'items.json').exists():
+    if (CACHE / PIN['file']).exists():
         return CACHE
     url = f"https://codeload.github.com/{PIN['repo']}/tar.gz/refs/tags/{urllib.parse.quote(PIN['tag'], safe='')}"
     with urllib.request.urlopen(url, timeout=120) as r:
@@ -33,21 +33,22 @@ def fetch():
                 continue
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(tar.extractfile(m).read())
-    if not (CACHE / 'items.json').exists():
-        raise SystemExit(f'{url}: no {PIN["path"]}/items.json in the archive')
+    if not (CACHE / PIN['file']).exists():
+        raise SystemExit(f'{url}: no {PIN["path"]}/{PIN["file"]} in the archive')
     return CACHE
 
 
 def load_eval_records():
-    """[(set_name, id, text, gold)] in items.json order."""
+    """[(set_name, id, text, gold)] in file order. Rows: {"id", "input", "target": {"entries"}, "metadata": {"subset"}}."""
     d = fetch()
     by_subset = {v: k for k, v in PIN['sets'].items()}
     out = []
-    for item in json.loads((d / 'items.json').read_text(encoding='utf8')):
-        text = (d / 'inputs' / f"{item['id']}.txt").read_text(encoding='utf8')
-        ref = json.loads((d / 'references' / f"{item['id']}.json").read_text(encoding='utf8'))
-        gold = [dict(depth=e['level'], start=e['start'], title=e['title'], anchor=e['anchor']) for e in ref['entries']]
-        out.append((by_subset[item['subset']], item['id'], text, gold))
+    for line in (d / PIN['file']).read_text(encoding='utf8').splitlines():
+        if not line.strip():
+            continue
+        row = json.loads(line)
+        gold = [dict(depth=e['level'], start=e['start'], title=e['title'], anchor=e['anchor']) for e in row['target']['entries']]
+        out.append((by_subset[row['metadata']['subset']], row['id'], row['input'], gold))
     return out
 
 

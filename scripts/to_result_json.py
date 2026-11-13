@@ -47,7 +47,7 @@ def main():
     ap.add_argument('--date', required=True)
     ap.add_argument('--commit', required=True, help='short commit of this repo that holds the variants')
     ap.add_argument('--benchmarks', required=True, help='path to a buddhist-benchmarks checkout')
-    ap.add_argument('--data-version', default='1.0.0')
+    ap.add_argument('--data-version', default='2.0.0')
     a = ap.parse_args()
 
     runs = {}  # (cond, model) -> list of {split: rows}
@@ -68,7 +68,7 @@ def main():
         result = {
             'schema': 'buddhist-benchmarks/result@1',
             'task': 'toc-extraction', 'language': 'bo',
-            'data_version': a.data_version, 'scorer_version': '1.0.0',
+            'data_version': a.data_version, 'scorer_version': '2.0.0',
             'skill': 'toc-extraction-tibetan', 'variant': variant, 'skill_version': version,
             'skill_ref': f'BuddhistAI/toc-extraction-tibetan@{a.commit}:variants/{folder}',
             'model': model, 'temperature': 1.0, 'repeats': len(per_run),

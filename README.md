@@ -13,7 +13,7 @@ The workshop for the BuddhistAI skill `toc-extraction-tibetan`: find the sa-bcad
 
 The flow: build a variant here, run it on the official benchmark, add its `result.json` to buddhist-benchmarks (`scripts/to_result_json.py`), and whatever tops the leaderboard is promoted to buddhist-skills.
 
-The evaluation passages are the buddhist-benchmarks data set [`toc-extraction/bo` 1.0.0](https://github.com/BuddhistAI/buddhist-benchmarks/tree/toc-extraction/bo%401.0.0/tasks/toc-extraction/data/bo/v1), pinned in `benchmark/benchmark.json` and downloaded on first use. Only the 48 passages GEPA trained on, which are not part of the benchmark, are kept here (`benchmark/data/train.jsonl`).
+The evaluation passages are the buddhist-benchmarks data set [`toc-extraction/bo` 2.0.0](https://github.com/BuddhistAI/buddhist-benchmarks/tree/toc-extraction/bo%402.0.0/tasks/toc-extraction/data/bo/v2), pinned in `benchmark/benchmark.json` and downloaded on first use. Only the 48 passages GEPA trained on, which are not part of the benchmark, are kept here (`benchmark/data/train.jsonl`).
 
 **Read first: [REPORT.md](./REPORT.md)** (ranking on Claude Haiku 5.5 and Sonnet 5.5).
 
@@ -21,7 +21,7 @@ The evaluation passages are the buddhist-benchmarks data set [`toc-extraction/bo
 
 ```
 benchmark/
-  benchmark.json      the buddhist-benchmarks release used for evaluation (toc-extraction/bo@1.0.0)
+  benchmark.json      the buddhist-benchmarks release used for evaluation (toc-extraction/bo@2.0.0)
   eval_data.py        downloads that release into benchmark/eval/ (git-ignored) and loads it
   data/train.jsonl    the 48 passages GEPA trained on, plus 5 too long or heading-less; not in the benchmark
   sources/*.epub      the two public-domain books the benchmark was built from
