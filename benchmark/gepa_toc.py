@@ -263,7 +263,7 @@ def run_eval(program, devset, threads, label):
 
 
 def selftest():
-    sets = load_dataset(HERE / 'data' / 'dataset.jsonl', max_chars=10 ** 9)
+    sets = load_dataset(HERE / 'data' / 'train.jsonl', max_chars=10 ** 9)
     ok = True
     def check(name, cond):
         nonlocal ok
@@ -313,7 +313,7 @@ def selftest():
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('mode', choices=['selftest', 'baseline', 'optimize', 'eval', 'predict'])
-    ap.add_argument('--data', default=str(HERE / 'data' / 'dataset.jsonl'))
+    ap.add_argument('--data', default=str(HERE / 'data' / 'train.jsonl'))
     ap.add_argument('--out', default=str(HERE / 'out'))
     ap.add_argument('--task-model', default='anthropic/claude-haiku-4-5')
     ap.add_argument('--reflection-model', default='anthropic/claude-sonnet-4-5')
@@ -332,7 +332,8 @@ def main():
     dspy.configure(lm=make_lm(a.task_model))
     sets = load_dataset(a.data, a.max_chars)
     train, val = subsample(sets['train'], a.n_train), subsample(sets['val'], a.n_val, seed=1)
-    test = sets['test']
+    import eval_data  # held-out book from buddhist-benchmarks, pinned in benchmark.json
+    test = sets['test'] or eval_data.load_eval_sets(a.max_chars)['test']
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     prog = TOCExtractor()

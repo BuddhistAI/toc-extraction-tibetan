@@ -11,9 +11,10 @@ Conditions
 Run from the repo root:  python benchmark/bench_skills.py --model anthropic/claude-haiku-5-5 --temperature 1.0                            --conds ours,colleague,colleague+tool,seed --out results/<run>.json
 
 Evaluation sets (all passages <= 6500 chars)
-  unused  Vasubandhu-book train+val passages that GEPA never saw (neither as train nor as val)   <- fair for both
-  test    Jewel Garland passages (held out for both)                                              <- fair for both
-  seen    the 24 train + 24 val passages GEPA optimised on                                        <- biased towards ours
+  unused  Vasubandhu-book passages GEPA never saw: buddhist-benchmarks same-book subset            <- fair for both
+  test    Jewel Garland passages (held out for both): buddhist-benchmarks held-out-book subset     <- fair for both
+  seen    the 24 train + 24 val passages GEPA optimised on (data/train.jsonl)                      <- biased towards ours
+unused and test are downloaded from buddhist-benchmarks at the release pinned in benchmark.json (eval_data.py).
 """
 import argparse, json, os, subprocess, sys, tempfile, random
 from pathlib import Path
@@ -22,6 +23,7 @@ import dspy
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 import gepa_toc as g
+import eval_data
 
 SKILL_DIR = Path(os.environ.get('COLLEAGUE_SKILL_DIR', str(HERE.parent / 'variants' / 'sabcad-outliner')))
 ADAPTER = """BENCHMARK ADAPTATION (this overrides the deliverable described in the skill below)
@@ -90,16 +92,16 @@ class ColleagueInstr(dspy.Module):
         return self.extract(text=text)
 
 
-def split_sets(data, n_train=24, n_val=24, max_chars=6500):
+def split_sets(data, max_chars=6500):
+    """unused and test come from buddhist-benchmarks (pinned in benchmark.json); seen is GEPA's data in data/train.jsonl."""
     sets = g.load_dataset(data, max_chars)
-    used = {e.id for e in g.subsample(sets['train'], n_train)} | {e.id for e in g.subsample(sets['val'], n_val, seed=1)}
-    allv = sets['train'] + sets['val']
-    return dict(unused=[e for e in allv if e.id not in used], test=sets['test'], seen=[e for e in allv if e.id in used])
+    ev = eval_data.load_eval_sets(max_chars)
+    return dict(unused=ev['unused'], test=ev['test'], seen=sets['train'] + sets['val'])
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--data', default=str(HERE / 'data' / 'dataset.jsonl'))
+    ap.add_argument('--data', default=str(HERE / 'data' / 'train.jsonl'), help='GEPA training data (the seen set)')
     ap.add_argument('--model', default='anthropic/claude-haiku-4-5')
     ap.add_argument('--temperature', type=float, default=0.0, help='Sonnet 5.5 only accepts 1.0')
     ap.add_argument('--conds', default='ours,colleague,colleague+tool')

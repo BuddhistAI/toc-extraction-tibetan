@@ -1,0 +1,7 @@
+{
+  "_comment": "The evaluation data is not copied here. It is the official buddhist-benchmarks data set, pinned to this release. benchmark/eval_data.py downloads it into benchmark/eval/ (git-ignored). To move to a new benchmark version, change the tag and re-run the promoted skill and the challengers.",
+  "repo": "BuddhistAI/buddhist-benchmarks",
+  "tag": "toc-extraction/bo@1.0.0",
+  "path": "tasks/toc-extraction/data/bo/v1",
+  "sets": {"unused": "same-book", "test": "held-out-book"}
+}
