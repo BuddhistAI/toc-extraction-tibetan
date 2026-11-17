@@ -11,7 +11,9 @@ The workshop for the BuddhistAI skill `toc-extraction-tibetan`: find the sa-bcad
 | [buddhist-skills](https://github.com/BuddhistAI/buddhist-skills) | The shelf: only the current winner of each leaderboard, which is what people install ([`toc-extraction-tibetan`](https://github.com/BuddhistAI/buddhist-skills/tree/main/skills/toc-extraction-tibetan)). |
 | [buddhist-bench](https://github.com/BuddhistAI/buddhist-bench) | A different exam: BuddhistBench tests models on Buddhist knowledge, not skills. |
 
-The flow: build a variant here, run it on the official benchmark, add its `result.json` to buddhist-benchmarks (`scripts/to_result_json.py`), and whatever tops the leaderboard is promoted to buddhist-skills.
+The flow: build a variant here, run it on the official benchmark, add its `result.json` to buddhist-benchmarks (`scripts/to_result_json.py`), write its provenance record here (`scripts/provenance.py`), and whatever tops the leaderboard is promoted to buddhist-skills.
+
+**Provenance.** Every leaderboard row of this skill has a record in [`provenance/`](./provenance/): the exact skill files, model and settings, prompt, benchmark data (with its hash), harness, libraries, command, run files and logs (with hashes), tokens, cost and date. It is our "bill of materials", so anyone can check or repeat a score. buddhist-benchmarks keeps only the short `result.json`. Format: [buddhistai/provenance@1](https://buddhistai.github.io/knowledge-base/handbook/provenance.html).
 
 The evaluation passages are the buddhist-benchmarks data set [`toc-extraction/bo` 2.0.0](https://github.com/BuddhistAI/buddhist-benchmarks/tree/toc-extraction/bo%402.0.0/tasks/toc-extraction/data/bo/v2), pinned in `benchmark/benchmark.json` and downloaded on first use. Only the 48 passages GEPA trained on, which are not part of the benchmark, are kept here (`benchmark/data/train.jsonl`).
 
@@ -30,8 +32,9 @@ benchmark/
   gepa_toc.py         DSPy task, metric with feedback, GEPA optimisation
   bench_skills.py     runs variants on the benchmark
 variants/<name>/      SKILL.md (with metadata.version) + VARIANT.md
-results/              one JSON + log per model and run; summary tables
-scripts/              summarize.py, to_result_json.py (leaderboard rows), to_benchmark_run.py (outputs),
+results/              one JSON + log (+ .meta.json since 2026-11-17) per model and run; summary tables
+provenance/           one provenance record per leaderboard row (made by scripts/provenance.py)
+scripts/              summarize.py, to_result_json.py (leaderboard rows), provenance.py (records), to_benchmark_run.py (outputs),
                       export_buddhist_benchmarks.py (new benchmark versions)
 ```
 
@@ -52,7 +55,11 @@ export ANTHROPIC_API_KEY=...        # or put it in benchmark/keys/api.txt (git-i
 python benchmark/bench_skills.py --model anthropic/claude-haiku-5-5 --temperature 1.0 \
   --conds ours,colleague,colleague+tool,seed,skill:variants/sabcad-outliner-toc --out results/<date>-haiku-5-5-run1.json
 python scripts/summarize.py results/<date>-*-run*.json
+python scripts/to_result_json.py --date <date> --commit <short-commit> --benchmarks ../buddhist-benchmarks
+python scripts/provenance.py --benchmarks ../buddhist-benchmarks     # then commit provenance/ with the run files
 ```
+
+`bench_skills.py` saves the exact command, Python and library versions and the repo commit in `<out>.meta.json`. `provenance.py --check` fails if a run file or log changed after its record was made.
 
 Claude 5.5 models only accept temperature 1.0, so scores move a little between runs: run each variant at least 3 times.
 

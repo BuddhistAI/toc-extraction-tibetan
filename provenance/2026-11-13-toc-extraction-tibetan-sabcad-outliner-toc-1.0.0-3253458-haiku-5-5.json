@@ -1,0 +1,143 @@
+{
+  "schema": "buddhistai/provenance@1",
+  "run_id": "2026-11-13-toc-extraction-tibetan-sabcad-outliner-toc-1.0.0-3253458-haiku-5-5",
+  "date": "2026-11-13",
+  "by": "WeBuddhist",
+  "task": "toc-extraction",
+  "language": "bo",
+  "skill": {
+    "name": "toc-extraction-tibetan",
+    "variant": "sabcad-outliner-toc",
+    "version": "1.0.0",
+    "ref": "BuddhistAI/toc-extraction-tibetan@3253458:variants/sabcad-outliner-toc",
+    "files": [
+      {
+        "path": "variants/sabcad-outliner-toc/SKILL.md",
+        "git_blob": "084d2a733432db6f360f3a3b20e4025e3d77f089"
+      },
+      {
+        "path": "variants/sabcad-outliner-toc/VARIANT.md",
+        "git_blob": "e482d995b8e86a3a94a965340fb8e39fd4323dcf"
+      },
+      {
+        "path": "variants/sabcad-outliner-toc/references/code-scheme.md",
+        "git_blob": "29f88b2466de7fb23a06bc6b35efbe5a636b85d8"
+      },
+      {
+        "path": "variants/sabcad-outliner-toc/references/methods.md",
+        "git_blob": "295cbabc13499144c9d197c425d19ce3fcd817ec"
+      }
+    ]
+  },
+  "model": {
+    "id": "claude-haiku-5-5",
+    "provider": "Anthropic",
+    "api": "Anthropic Messages API through LiteLLM (dspy[litellm])",
+    "settings": {
+      "temperature": 1.0,
+      "max_tokens": 8000,
+      "cache": false
+    }
+  },
+  "prompt": {
+    "how": "SKILL.md (without front matter) and references/*.md, joined, as the instructions of a DSPy ChainOfThought signature (text -> headings)",
+    "files": [
+      "variants/sabcad-outliner-toc/SKILL.md",
+      "variants/sabcad-outliner-toc/references/code-scheme.md",
+      "variants/sabcad-outliner-toc/references/methods.md"
+    ],
+    "note": "The prompt is the skill files above, sent through the harness below. scripts/estimate_usage.py rebuilds the exact prompt for each passage."
+  },
+  "benchmark": {
+    "repo": "BuddhistAI/buddhist-benchmarks",
+    "tag": "toc-extraction/bo@2.0.0",
+    "path": "tasks/toc-extraction/data/bo/v2/test.jsonl",
+    "data_version": "2.0.0",
+    "scorer_version": "2.0.0",
+    "data_sha256": "c28073cbaeeab7d58a9b4d430309ec53162e59a0c6d7153d51b0cbd529298298",
+    "items": 85,
+    "measured_on": "1.0.0",
+    "note": "Measured on 1.0.0 (the copy inside this repo at the skill commit). 2.0.0 has the same 85 items and answers in the standard format; re-scoring gives identical numbers (buddhist-benchmarks tasks/toc-extraction/CHANGELOG.md)."
+  },
+  "harness": {
+    "repo": "BuddhistAI/toc-extraction-tibetan",
+    "commit": "3253458",
+    "script": "benchmark/bench_skills.py",
+    "libraries": [
+      "dspy[litellm]==3.5.0"
+    ],
+    "python": "not recorded",
+    "command": "python benchmark/bench_skills.py --model anthropic/claude-haiku-5-5 --temperature 1.0 --conds skill:variants/sabcad-outliner-toc --sets unused,test --out results/2026-11-13-haiku-5-5-promoted-run<N>.json",
+    "command_recorded": false,
+    "command_note": "Rebuilt from the README and the run files (which hold these conditions); the exact command line was not saved before 2026-11-17. bench_skills.py now saves it in <out>.meta.json."
+  },
+  "runs": [
+    {
+      "output": "results/2026-11-13-haiku-5-5-promoted-run1.json",
+      "output_sha256": "9fb0340a48ce9dc820ad0c30b7b2185b7c9274bac488bc0087a443253bc74b0e",
+      "log": "results/2026-11-13-haiku-5-5-promoted-run1.log",
+      "log_sha256": "df9faaf88b1abbdffa7728cfb3a7c089cecc4becc7bb7f384b32a55abbc5cb34"
+    },
+    {
+      "output": "results/2026-11-13-haiku-5-5-promoted-run2.json",
+      "output_sha256": "6d6b4480a30002089222ee90923879954b47d0a291a4702985cef528f2195f97",
+      "log": "results/2026-11-13-haiku-5-5-promoted-run2.log",
+      "log_sha256": "b6fa2963a9bf64b2a33e3448753fc5c0043a8aaa9a535f000ca2a0d900d5b540"
+    },
+    {
+      "output": "results/2026-11-13-haiku-5-5-promoted-run3.json",
+      "output_sha256": "e5d0f9cb736b9063324d3325e042d5763085fd709e8f621a6eeb147c0069ff0c",
+      "log": "results/2026-11-13-haiku-5-5-promoted-run3.log",
+      "log_sha256": "dee3ec4b9fc63b1128eaca3ddf2661d000e9b629b4d44d9e6faa5b709694a966"
+    }
+  ],
+  "repeats": 3,
+  "usage": {
+    "input_tokens": 907406,
+    "output_tokens": 99468,
+    "items": 85,
+    "estimated": true,
+    "method": "estimated from characters: exact DSPy prompts, stored outputs, Tibetan 1 token/char, other text 4 chars/token, reasoning 300 + 100 tokens per heading (scripts/estimate_usage.py in toc-extraction-tibetan)"
+  },
+  "cost": {
+    "usd_per_pass": 0.1405,
+    "estimated": true,
+    "price": {
+      "input_per_mtok": 0.1,
+      "output_per_mtok": 0.5,
+      "date": "2026-11-03",
+      "source": "https://www.anthropic.com/pricing"
+    },
+    "note": "tokens x list price, one pass over the test set; tokens are estimated (see usage.method)"
+  },
+  "scores": {
+    "headline": "structure_f1",
+    "same-book": {
+      "structure_f1": 0.840226,
+      "title_f1": 0.907967,
+      "level_accuracy": 0.925392
+    },
+    "held-out-book": {
+      "structure_f1": 0.637224,
+      "title_f1": 0.727539,
+      "level_accuracy": 0.875507
+    },
+    "all": {
+      "structure_f1": 0.823466,
+      "title_f1": 0.89311,
+      "level_accuracy": 0.921983
+    },
+    "std": {
+      "same-book": 0.026901,
+      "held-out-book": 0.088923,
+      "all": 0.022059
+    }
+  },
+  "links": {
+    "result": "https://github.com/BuddhistAI/buddhist-benchmarks/blob/main/tasks/toc-extraction/results/bo/runs/2026-11-13-toc-extraction-tibetan-sabcad-outliner-toc-1.0.0-3253458-haiku-5-5/result.json",
+    "outputs": "https://github.com/BuddhistAI/buddhist-benchmarks/tree/main/tasks/toc-extraction/results/bo/runs/2026-11-13-toc-extraction-tibetan-sabcad-outliner-toc-1.0.0-3253458-haiku-5-5/outputs",
+    "report": "https://github.com/BuddhistAI/toc-extraction-tibetan/blob/main/REPORT.md",
+    "leaderboard": "https://buddhistai.github.io/buddhist-benchmarks/tasks/toc-extraction/bo/"
+  },
+  "notes": "outputs are run 2 of 3; the leaderboard row is the mean of runs 1-3 (see the lab REPORT.md)"
+}

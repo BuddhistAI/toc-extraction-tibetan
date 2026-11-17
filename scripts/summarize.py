@@ -14,7 +14,7 @@ from pathlib import Path
 VARIANT = {'ours': 'gepa-v1 1.0.0', 'colleague': 'sabcad-outliner 1.0.0', 'colleague+tool': 'sabcad-outliner 1.0.0 + script',
            'seed': 'seed 0.1.0', 'skill:variants/sabcad-outliner-toc': 'sabcad-outliner-toc 1.0.0'}
 cells = defaultdict(lambda: defaultdict(list))   # (model, cond) -> metric -> [per-run value]
-for f in sys.argv[1:]:
+for f in [x for x in sys.argv[1:] if not x.endswith(".meta.json")]:
     m = re.search(r'\d{4}-\d\d-\d\d-(.+?)(-promoted)?-run(\d+)\.json$', f)
     model = m.group(1)
     data = json.loads(Path(f).read_text(encoding='utf8'))

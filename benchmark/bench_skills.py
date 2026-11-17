@@ -111,6 +111,30 @@ def split_sets(data, max_chars=6500):
     return dict(unused=ev['unused'], test=ev['test'], seen=sets['train'] + sets['val'])
 
 
+def write_meta(a):
+    """Save how this run was made next to its output (<out>.meta.json), for scripts/provenance.py."""
+    import datetime, platform, shlex
+    from importlib import metadata
+    try:
+        commit = subprocess.run(['git', 'rev-parse', '--short', 'HEAD'], cwd=HERE.parent, capture_output=True,
+                                text=True).stdout.strip()
+        dirty = bool(subprocess.run(['git', 'status', '--porcelain'], cwd=HERE.parent, capture_output=True,
+                                    text=True).stdout.strip())
+    except OSError:
+        commit, dirty = None, None
+    libs = []
+    for name in ('dspy', 'litellm', 'anthropic'):
+        try:
+            libs.append(f'{name}=={metadata.version(name)}')
+        except metadata.PackageNotFoundError:
+            pass
+    meta = {'command': 'python ' + shlex.join(['benchmark/bench_skills.py'] + sys.argv[1:]),
+            'started': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
+            'commit': commit, 'uncommitted_changes': dirty,
+            'python': platform.python_version(), 'libraries': libs}
+    Path(a.out).with_suffix('.meta.json').write_text(json.dumps(meta, indent=2) + '\n', encoding='utf8')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--data', default=str(HERE / 'data' / 'train.jsonl'), help='GEPA training data (the seen set)')
@@ -141,6 +165,7 @@ def main():
             return ColleagueInstr(skill_dir_text(c[len('skill:'):]))
         raise SystemExit('unknown condition ' + c)
 
+    write_meta(a)
     results = {}
     for c in a.conds.split(','):
         prog = build(c)

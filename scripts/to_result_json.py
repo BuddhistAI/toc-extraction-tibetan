@@ -53,6 +53,8 @@ def main():
 
     runs = {}  # (cond, model) -> list of {split: rows}
     for f in sorted(glob.glob(str(ROOT / 'results' / f'{a.date}-*-run*.json'))):
+        if f.endswith('.meta.json'):
+            continue
         m = re.search(r'\d{4}-\d\d-\d\d-(\w+-\d-\d)-(?:promoted-)?run\d+\.json$', f)
         model = 'claude-' + m.group(1)
         for key, rows in json.loads(Path(f).read_text(encoding='utf8')).items():
