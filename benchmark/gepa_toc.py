@@ -13,7 +13,7 @@ inline nested <section depth=".."> XML (toc_lib.render_tree / render_inline_xml)
 Usage
   python gepa_toc.py selftest                       # no LLM needed: metric + renderer sanity checks
   python gepa_toc.py baseline  --task-model M        # score the un-optimised seed prompt on val/test
-  python gepa_toc.py optimize  --task-model M --reflection-model R [--auto light]
+  python gepa_toc.py optimize  --task-model M --reflection-model R [--auto light | --max-calls 300]
   python gepa_toc.py eval      --program out/program.json --task-model M
   python gepa_toc.py predict   --program out/program.json --task-model M --file data/RCP-FM-07/raw.txt
 API keys are read from the environment (e.g. ANTHROPIC_API_KEY) by litellm.
@@ -318,6 +318,7 @@ def main():
     ap.add_argument('--task-model', default='anthropic/claude-haiku-4-5')
     ap.add_argument('--reflection-model', default='anthropic/claude-sonnet-4-5')
     ap.add_argument('--auto', default='light', choices=['light', 'medium', 'heavy'])
+    ap.add_argument('--max-calls', type=int, help='hard budget: stop after this many metric calls (overrides --auto)')
     ap.add_argument('--n-train', type=int, default=24)
     ap.add_argument('--n-val', type=int, default=24)
     ap.add_argument('--max-chars', type=int, default=6500, help='skip chunks longer than this')
@@ -347,7 +348,8 @@ def main():
         run_eval(prog, val, a.threads, 'val')
         run_eval(prog, test, a.threads, 'test (held-out book)')
     elif a.mode == 'optimize':
-        gepa = dspy.GEPA(metric=toc_metric, auto=a.auto, reflection_lm=make_lm(a.reflection_model, 1.0, 32000),
+        budget = {'max_metric_calls': a.max_calls} if a.max_calls else {'auto': a.auto}
+        gepa = dspy.GEPA(metric=toc_metric, **budget, reflection_lm=make_lm(a.reflection_model, 1.0, 32000),
                          num_threads=a.threads, track_stats=True, reflection_minibatch_size=3,
                          log_dir=str(out / 'gepa_logs'), seed=0)
         best = gepa.compile(prog, trainset=train, valset=val)
