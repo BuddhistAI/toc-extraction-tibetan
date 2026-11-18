@@ -17,8 +17,9 @@ This covers pages, forms, install steps, app screens and the words on them. A te
 1. **Install EGM** if `/egm:egm-draft` is missing: `claude plugin marketplace add google/elephant-goldfish-model`, then `claude plugin install egm@egm`.
 2. **Elephant: design first, no code.** Use the `buddhistai-elephant` skill to load the context. Then write the design in `docs/designs/<yyyy-mm-dd>-<slug>.md` from knowledge-base `docs/designs/TEMPLATE.md`. Name the journeys and pages it changes.
 3. **Goldfish: review in this session.** Use the `buddhistai-ux-review` skill. It runs EGM `egm-review-loop` with EGM's reviewers plus the persona files of those journeys (knowledge-base `ux/personas/`) as fresh subagents.
-4. **Fix and repeat** until two rounds in a row are clean (no open Blocker or Major finding), at most 5 rounds. Show the person the open findings. The person approves the design.
-5. **Build to the design.** Link it in the pull request under "EGM review". If journey steps changed, update knowledge-base `ux/journeys/`.
+4. **Fix and repeat** until two rounds in a row are clean (no open Blocker or Major finding), at most 5 rounds. Run EGM in its uninterrupted mode where it has one. Resolve findings yourself. Do not ask about each finding one at a time, even if an EGM skill says to.
+5. **Ask only real product decisions, once.** Answer gaps yourself from the code, the knowledge base, the handbook, the personas and the journeys, and say which source you used. Ask the developer only about choices that no source settles: what to build, for whom, trade-offs, words that change meaning. Put them in one short list with your recommendation for each. Then the developer approves the design.
+6. **Build to the design.** Link it in the pull request under "EGM review". If journey steps changed, update knowledge-base `ux/journeys/`.
 
 If this repo has no `.claude/skills/buddhistai-*`, read them from https://github.com/BuddhistAI/knowledge-base/tree/main/.claude/skills. The `egm-review` label on a pull request runs one more review in CI when the org key is set. That review is optional. Details: handbook `ux.md`.
 
